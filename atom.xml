@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>action.io updates</title>
+  <link href="http:/updates.action.io/atom.xml" rel="self"/>
+  <link href="http://updates.action.io/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://updates.action.io</id>
+  <author>
+    <name>Action.IO</name>
+    <email>hello@action.io</email>
+  </author>
+
+  {% for post in site.posts %}
+    <entry>
+      <title>{{ post.title }}</title>
+      <link href="http://updates.action.io/{{ post.url }}"/>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <id>http://updates.action.io/{{ post.id }}</id>
+      <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+  {% endfor %}
+</feed>

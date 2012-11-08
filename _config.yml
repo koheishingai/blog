@@ -1,0 +1,6 @@
+auto: true
+markdown: rdiscount
+pygments: true
+exclude:
+- README.md
+- Rakefile

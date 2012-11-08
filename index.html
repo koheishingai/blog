@@ -1,0 +1,31 @@
+---
+layout: default
+title: Action.IO Product Updates
+---
+
+<h1>Action.IO Updates</h1>
+
+{% if site.posts.count > 0 %}
+
+  <ul id="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="pdate">{{ post.date | date_to_string }}</span>
+        <a class="ptitle" href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.excerpt %}
+          <div class="excerpt">
+            {{ post.excerpt | markdownify }}
+            <span class="rmore"><a href="{{ post.url }}"> &raquo; read more</a>
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+{% else %}
+
+  <p class="notice">
+    Stay tuned...
+  </p>
+
+{% endif %}
