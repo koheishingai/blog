@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div id="post">
+<div class="post">
   {% if post.draft %}
     <div class="notice"> You've stumbled upon a draft. Sorry if it's illegible!</div>
   {% else %}
     <article>
       <header>
         <hgroup>
-          <h1 style="margin-bottom:1.5rem"> {{ page.title }}</h1>
+          <h1 class='post-title'> {{ page.title }}</h1>
           <p class="post-date"> <time pubdate datetime="{{ page.date | date: "%d %B %Y" }}">{{ page.date | date: "%d %B %Y" }}</time></p>
         </hgroup>
       </header>
