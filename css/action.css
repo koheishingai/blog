@@ -94,7 +94,7 @@ a:hover, a:active {outline: 0;}
 ::selection {background-color: #d6dbe1;color: #2d353e;text-shadow: none;}
 
 /* Elements =================================================== */
-hr {display: block;margin: 1em 0;padding: 0;height: 1px;border: 0;border-top: 1px solid #1b232a;border-bottom: 1px solid #323b43;}
+hr {display: block;margin: 1em 0;padding: 0;border: 0;border-top: 1px solid #1b232a;border-bottom: 1px solid #323b43;}
 img {max-width: 100%;border-width: 0;vertical-align: middle;-ms-interpolation-mode: bicubic;}
 svg:not(:root) {overflow: hidden;}
 figure {margin-bottom: 1.5em;}
@@ -233,13 +233,14 @@ ul#posts li .excerpt p {color: #c3c3c3;font-size: 1.3333rem}
 .g-plusone {width: 180px;}
 
 /* contentinfo =================================================== */
-[role="contentinfo"] {padding: 1em 0;border-top: 1px solid #405b66;margin: 1em auto 0;width: 90%;}
+[role="contentinfo"] {padding: 0;margin: 0 auto 0;width: 90%;}
 footer[role="contentinfo"] {color: #ccc;font-size:1em;}
+footer[role="contentinfo"] p { line-height: 1}
 footer[role="contentinfo"] a {color: #ddd; text-decoration: none;}
 footer[role="contentinfo"] a.action-link:hover {color: #fda32e;}
 footer[role="contentinfo"] a:hover {color: #c0cbf6;}
 [role="contentinfo"] small {display: block;margin: 0 auto 1.5em;width: 90%;}
-footer[role="contentinfo"] span#feeds {float: right;position: relative;top:-1px;}
+footer[role="contentinfo"] span#feeds {float: right; line-height: 1}
 
 .vh320 {display:none;}
 .vh480 {display:none}
