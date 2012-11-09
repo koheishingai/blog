@@ -195,7 +195,7 @@ input[type="submit"].btn:hover {border-color: #572000;}
 /* Navigation =================================================== */
 #page-header { position:relative; padding: 12px 0 0; }
 #page-header  h1 { margin-bottom:0;display: inline-block;line-height: 20px;font-size:18px;font-weight: 600;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);}
-#page-header  h1 span { font-weight: 100; color: #e78320; }
+#page-header  h1 span { font-weight: 100; color: #B0CBE6; }
 #page-header  h1 a { color: #fff;position: relative; text-decoration: none; }
 #page-header  a:hover { text-decoration: none;  }
 #page-header .header-nav { position: absolute;height: 22px;bottom: -3px;right: 0px;margin: 0;line-height: 1;}
