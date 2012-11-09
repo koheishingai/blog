@@ -181,7 +181,7 @@ input[type="submit"].btn:hover {border-color: #572000;}
 /* Navigation =================================================== */
 #page-header { position:relative; padding: 12px 0 0; }
 #page-header  h1 { margin-bottom:0;display: inline-block;line-height: 20px;font-size:18px;font-weight: 600;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);}
-#page-header  h1 span { font-weight: 100; color: #d77310; }
+#page-header  h1 span { font-weight: 100; color: #e78320; }
 #page-header  h1 a { color: #fff;position: relative; text-decoration: none; }
 #page-header  a:hover { text-decoration: none;  }
 #page-header .header-nav { position: absolute;height: 22px;bottom: -3px;right: 0px;margin: 0;line-height: 1;}
@@ -222,7 +222,7 @@ ul#posts li .excerpt p {color: #c3c3c3;font-size: 1.3333rem}
 [role="contentinfo"] {padding: 1em 0;border-top: 1px solid #405b66;margin: 1em auto 0;width: 90%;}
 footer[role="contentinfo"] {color: #ccc;font-size:1em;}
 footer[role="contentinfo"] a {color: #ddd; text-decoration: none;}
-footer[role="contentinfo"] a.action-link:hover {color: #f7931e;}
+footer[role="contentinfo"] a.action-link:hover {color: #fda32e;}
 footer[role="contentinfo"] a:hover {color: #c0cbf6;}
 [role="contentinfo"] small {display: block;margin: 0 auto 1.5em;width: 90%;}
 footer[role="contentinfo"] span#feeds {float: right;position: relative;top:-1px;}
@@ -257,7 +257,7 @@ footer[role="contentinfo"] span#feeds {float: right;position: relative;top:-1px;
 
   #content {padding-top: 0;}
   section[role="main"] { margin-top: .5em;min-height: 400px;}
-  section[role="main"], footer[role="contentinfo"] {width: 65%;margin-left:25%;}
+  section[role="main"], footer[role="contentinfo"] {width: 65%;}
 
 }
 @media only screen and (min-width: 992px) {
