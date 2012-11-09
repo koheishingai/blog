@@ -28,7 +28,7 @@ namespace :actionblog do
     todays_date = now.strftime("%Y-%m-%d")
 
     slug = "#{todays_date}-#{blog_title.permalize}"
-    File.open("_posts/#{slug}.textile", 'w') do |out|
+    File.open("_posts/#{slug}.md", 'w') do |out|
       out.puts("---")
       out.puts("layout: post")
       out.puts("title: #{blog_title}")
@@ -40,6 +40,6 @@ namespace :actionblog do
       out.puts("<p class=\"meta\">#{now.day} #{now.strftime("%h")} #{now.year} - Singapore</p>")
     end
 
-    puts "** New Blog Post '#{blog_title}' Created at: _posts/#{slug}.textile"
+    puts "** New Blog Post '#{blog_title}' Created at: _posts/#{slug}.md"
   end
 end
