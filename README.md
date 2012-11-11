@@ -1,4 +1,4 @@
-changelog
+ActionBlog
 =========
 
-Product update goodness
+Action.IO Blog
