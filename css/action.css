@@ -63,11 +63,11 @@ h6 {margin-bottom: 1.5em;font-size: 14px;font-size: 1.4rem;font-weight: normal;l
   color: #d8dbe3;
 }
 
-p,ol,ul,dl,address {margin-bottom: 1.5em;font-size: 14px;font-size: 1.4rem;line-height: 1.6667em;}
+p,ol,ul,dl,address {margin-bottom: 1.5em;font-size: 14px;font-size: 1.4rem;line-height: 1.8em;}
 small {font-size: 14px;font-size: 1.4rem;}
 ul,ol {margin: 0 0 1.5em 0;padding: 0 0 0 24px;list-style:square;}
 li ul, li ol {margin: 0;font-size: 16px;font-size: 1.6rem;}
-blockquote {margin: 0 0 1.5em -24px;padding-left: 24px;border-left: 2px solid #c7ced6;font-family: Georgia, Cambria, Times, "Times New Roman";font-style: normal;color: #555;}
+blockquote {margin: 0 0 1.5em 0;padding-left: 24px;border-left: 2px solid #aaa;font-style: italic;color: #aaa;}
 q {quotes: none;}
 blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
 cite {font-style: normal;}
