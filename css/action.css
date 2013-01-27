@@ -33,7 +33,7 @@ body {
   font-size: 16px;
   font-size: 1.5rem;
   line-height: 2em;
-  color: #eef3ff;
+  color: #f8fcff;
 }
 
 section[role="main"] {
@@ -42,7 +42,7 @@ section[role="main"] {
 }
 
 /* Typography =================================================== */
-h1,h2,h3,h4,h5,h6 {margin: 0;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight: 100;color: #d8dbe3;text-rendering: optimizelegibility;}
+h1,h2,h3,h4,h5,h6 {margin: 0;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight: 100;color: #BBDDFF;text-shadow: 1px 1px 0 rgba(0,0,0,0.5);text-rendering: optimizelegibility;}
 h1 {margin-bottom: 0.5em;font-size: 28px;font-size: 2.4rem;line-height: 1.2;}
 h2 {margin-bottom: 0.5em;font-size: 20px;font-size: 2.0rem;line-height: 1.2;}
 h3 {margin-bottom: 1em;font-size: 18px;font-size: 1.7rem;line-height: 1.3;}
@@ -84,6 +84,19 @@ sub,sup {position: relative;font-size: 12px;font-size: 1.2rem;line-height: 0;ver
 sup {top: -0.5em;}
 sub {bottom: -0.25em;}
 
+pre {
+	color: #F8F8F8 !important;
+	background: #434E56 !important;
+	font-family: Monaco, monospace !important;
+	font-size: .875em;
+	padding: 12px;
+	line-height: 1.5em;
+	-webkit-border-radius: 2px;
+	border: 1px solid #232E36;
+	width: 82.5% !important;
+	overflow: auto !important;
+}
+
 /* Color =================================================== */
 a {text-decoration: underline;color: #c0cbf6;}
 a:visited {color: #c0cbf6;}
@@ -95,7 +108,7 @@ a:hover, a:active {outline: 0;}
 
 /* Elements =================================================== */
 hr {display: block;margin: 1em 0;padding: 0;border: 0;border-top: 1px solid #1b232a;border-bottom: 1px solid #323b43;}
-img {max-width: 100%;border-width: 0;vertical-align: middle;-ms-interpolation-mode: bicubic;}
+img {max-width: 100%;border-width: 0;vertical-align: middle;-ms-interpolation-mode: bicubic;border: 5px solid #345;}
 svg:not(:root) {overflow: hidden;}
 figure {margin-bottom: 1.5em;}
 figure img {margin-bottom: 0.375em;}
