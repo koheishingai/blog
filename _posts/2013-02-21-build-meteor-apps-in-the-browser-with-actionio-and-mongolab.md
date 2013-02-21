@@ -3,23 +3,13 @@ layout: post
 title: Build Meteor apps in the browser with Action.IO and MongoLab
 ---
 
-[Meteor](http://meteor.com) is the new kid on the block which lets you build web applications
-very quickly and host them in double-quick time on meteor.com's servers.
-Meteor comes bundled with MongoDB which it uses at it's de-facto
-datastore. While the Meteor guys have done a great job with the 
-installation process, developers might still be wary of polluting their
-pristine local dev environments, and this is where Action.IO steps in.
+[Meteor](http://meteor.com) is the new kid on the block that lets you quickly build web applications and host them effortlessly on meteor's servers. Meteor comes bundled with MongoDB which it uses at it's de-facto datastore. While the Meteor guys have done a great job with the installation process, developers might still be wary of polluting their local dev environments with another platform. This is where Action.IO can help.
 
 ###  Look Ma, No Root
 
-Unfortunately, the Meteor installation process on Linux requires root
-access (which is not available on our [free plan](https://action.io/pricing)), as well as the installation
-of a MongoDB server on your machine.
+Unfortunately, the Meteor installation process on Linux requires root access (not available on our [free plan](https://action.io/pricing)), as well as the installation of a MongoDB server on your machine.
 
-This post will guide you on how you can do away with the need for root access and lets you use
-a MongoDB service for free from the lovely folks at
-[MongoLab](http://mongolab.com), all within the confines of your
-favorite browser.
+This post will demonstrate how to setup meteor without root access and how to setup a free MongoDB instance from the great [MongoLab](http://mongolab.com) service, all from your favorite internet browser.
 
 ### Prerequisites
 
@@ -31,124 +21,90 @@ Before we get started, make sure you have the following:
   up!)
 * A [Node.JS Box](http://help.action.io/customer/portal/articles/802603-create-a-box) on Action.IO.
 
-### Create a MongoDB database on MongoLab
+### Create MongoDB database on MongoLab
 
-You can refer to the [MongoDB help article](http://help.action.io/customer/portal/articles/1007291-mongodb-integration-mongolab-) for
-detailed instructions on how to setup a free MongoDB database on MongoLab.
+You can refer to the [MongoDB help article](http://help.action.io/customer/portal/articles/1007291-mongodb-integration-mongolab-) for detailed instructions on how to setup a free MongoDB database on MongoLab.
 
-Assuming you completed the setting of environment variables in your
-"~/.bash_profile" based on the instructions in the help article, you should have the variables
+Assuming you set up environment variables correctly in your **~/.bash_profile**  (see the above article), you should have the following environment variables set:
 
     MONGODB_DEVELOPMENT_HOST, MONGODB_DEVELOPMENT_PORT,
     MONGODB_DEVELOPMENT_USERNAME, MONGODB_DEVELOPMENT_PASSWORD,
     MONGODB_DEVELOPMENT_DB, MONGODB_DEVELOPMENT_URI
 
-as part of your environment.
+### Setup MONGO_URL environment variable
 
-### Setup the MONGO_URL environment variable
+Now we need to let Meteor know to use the correct remote MongoDB database (By default, Meteor assumes mongodb is installed locally).
 
-Ok great, we now need to let Meteor know to use the right MongoDB
-database (Meteor by default assumes that mongodb is installed locally).
+Add a new environment variable called **MONGO_URL** and make it point to the **MONGODB_DEVELOPMENT_URI** variable we created in the previous section.
 
-Add a new environment variable called "MONGO_URL" and make it point to
-the "MONGODB_DEVELOPMENT_URI" variable which we created in the previous
-section.
-
-Add the following line to your "~/.bash_profile"
+Add the following line to your **~/.bash_profile**
 
     $ export MONGO_URL=${MONGODB_DEVELOPMENT_URI}
 
-and run 
+and run the following command so it's set immediately:
 
     $ source ~/.bash_profile
 
-so that it is set immediately.
-
-You can verify that this has been set by running
+You can verify the environment variable has been set by running:
 
     $ echo $MONGO_URL
 
-in your console, and this should return
-"mongodb://username:password@abc.mongolab.com:1337/wordplay"
+in your console. It should return **mongodb://username:password@abc.mongolab.com:1337/wordplay**
 
-(With the values that you got when creating your own MongoDB database of
-course)
+(With the values from your own MongoDB database, of course.)
 
 ### Install Meteorite
 
-Install [meteorite](https://npmjs.org/package/meteorite) using npm
+Install [meteorite](https://npmjs.org/package/meteorite) using npm:
 
     $ npm install -g meteorite
 
-Meteorite is a Node.JS Module which lets us upgrade to the latest version of Meteor,
-and not have any root dependencies.
-This will install the binary "mrt" for you, which you can then use instead
-of the "meteor" command-line tool.
+Meteorite is a Node.JS Module which lets us upgrade to the latest version of Meteor, and not have any root dependencies.
+This will install the binary "mrt" for you, which you can then use instead of the "meteor" command-line tool.
 
 ### Create a Sample App
 
-We can now install one of the sample apps, let's try it with the
-"wordplay" application which is quite fun.
-
-cd into the "workspace" directory on your Action.IO box and create the
-wordplay app, using this:
+We can now install one of the sample apps, let's try it with the "wordplay" application which is quite fun. Change directories into the "workspace" directory on your Action.IO box and create the wordplay app, using the following commands:
 
     $ cd ~/workspace
     $ mrt create --example wordplay
 
-You can see your app being created, like so:
+You'll see your app being created:
 
 ![Create Meteor App](/images/meteor-create-app.png)
 
 ### Preview your Work
 
-Now that we have successfully created the wordplay application, now it's
-your turn to actually see it work. Change directory to the wordplay app
-and run mrt
+Now that we have successfully created the wordplay application, it's your turn to see it work. Change directory to the wordplay app and run mrt:
 
     $ cd ~/workspace/wordplay
     $ mrt
 
-If all goes well, you will see the app running on
-"http://localhost:3000". 
+If all goes well, you will see the app running on **http://localhost:3000**.
 
 ![Preview Meteor App](/images/meteor-preview.png)
 
-You can now view your shiny new Meteor app, by clicking on the "Preview"
-menu, followed by "Port 3000". The name of my box is
-ajs-meteor-app-2777, so the app will be available at
-"http://ajs-meteor-app-2277.apse1.actionbox.io:3000/"
+You can now view your shiny new Meteor app, by clicking on the "Preview" menu, followed by "Port 3000". The name of my box is ajs-meteor-app-2777, so the app will be available at **http://ajs-meteor-app-2277.apse1.actionbox.io:3000/**
 
 ![Preview Meteor Result](/images/meteor-preview-result.png)
 
-### Deploy to meteor.com
+### Deploy to Meteor.com
 
-While this has been great, Action.IO is not a production deployment
-system, you can code on Action.IO and deploy using the platforms such as 
-[AppFog](http://appfog.com), [Heroku](http://heroku.com), [CloudFoundry](http://cloudfoundry.com),
-or in this case [Meteor](http://meteor.com)
+<p class="note">Action.IO is not a production deployment system. We recommend you code on Action.IO and deploy using the platforms such as <a href="http://appfog.com">AppFog</a>, <a href="http://heroku.com">Heroku</a>, <a href ="http://cloudfoundry.com">CloudFoundry</a>, or <a href="http://meteor.com">Meteor</a>.</p>
 
-Deploying to meteor.com is super simple, just run 
+Deploying to meteor.com is incredibly simple, just run:
 
     $ cd ~/workspace/wordplay
     $ mrt deploy ajs-wordplay.meteor.com
 
-(Please note, you should probably change the name of your deploy target
-so that it doesn't clash with mine).
+<p class="alert">Change the name of your deploy target so that it doesn't clash with ours!</p>
 
-And in just a matter of minutes, we have a [cute little game](http://ajs-word-play.meteor.com/) deployed on
-Meteor, developed in the browser using Action.IO and MongoLab.
+In a matter of minutes, we've created and deployed a [great little game](http://ajs-word-play.meteor.com/) on Meteor, developed in the browser using [Action.IO](https://www.action.io) and MongoLab.
 
-### Do More
+### Your Turn!
 
-So there you have it, we went from zero to a powerful production 
-database-backed app, completely deployed in the browser. You can plug
-and play with other MongoDB hosting providers, tweak the word-play app,
-create a completely new Meteor app from scratch, and deploy to a
-production system all from within the browser.
+You can experiment on your own using different [MongoDB hosting providers](https://www.mongohq.com/home), or by tweaking the word-play app. If you're more adventurous, try creating a completely new Meteor app from scratch on Action.IO and deploy it to Meteor.
 
-We are still in private beta but are sending out invites at the speed of
-knots, so please sign up at [Action.IO](https://www.action.io).
+We're still in private beta but are giving out invites as quickly as we can, so sign up at [Action.IO](https://www.action.io) and we'll hook you up soon.
 
-For our regular users, How'd it go for you? If you're having trouble, you can always get in touch with us by visiting our [chatroom](https://action.io/chat) or by [emailing us](mailto:support@action.io).
-
+For our regular users: How'd it go for you? If you're having trouble, you can always get in touch with us by visiting our [chatroom](https://action.io/chat) or by [emailing us](mailto:support@action.io).

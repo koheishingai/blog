@@ -250,7 +250,7 @@ input[type="submit"].btn:hover {border-color: #572000;}
 /* Content =================================================== */
 .post article header {margin-bottom: 1.25em;}
 .content {margin: 0 auto;width: 90%;}
-#content {padding-top: 8px;}
+#content {margin-top: 24px;}
 p.post-date {color: #b3b8e3;font-size:1.5rem;font-weight:normal;margin-bottom:1.5rem;}
 
 ul#posts {list-style: none;}
