@@ -1,16 +1,16 @@
 ---
 layout: post
-title: The Action.IO Web IDE
+title: The Nitrous.IO Web IDE
 ---
 
-We've spent much of the last few months working behind the scenes on the Action.IO platform, to ensure we can provide the best performing and most stable cloud development environment. We're confident with our progress to date, and will be sending out invites to the extremely large group of requests we've received over the past few months. Over the next few weeks, we'll be writing some blog posts about the different ways you can connect to your Action.IO development boxes.
+We've spent much of the last few months working behind the scenes on the Nitrous.IO platform, to ensure we can provide the best performing and most stable cloud development environment. We're confident with our progress to date, and will be sending out invites to the extremely large group of requests we've received over the past few months. Over the next few weeks, we'll be writing some blog posts about the different ways you can connect to your Nitrous.IO development boxes.
 
-The first, and most common these days amongst cloud development platforms, is the Web IDE. Most software developers know the "IDE" ([Integrated Development Environment](http://en.wikipedia.org/wiki/Integrated_development_environment)) as a software application that provides the necessary tools to develop softwawre. The Action.IO Web IDE, therefore is just a web-based version of your typical IDE. The first iteration of our IDE has the necessary tools for you to develop effectively in the cloud:
+The first, and most common these days amongst cloud development platforms, is the Web IDE. Most software developers know the "IDE" ([Integrated Development Environment](http://en.wikipedia.org/wiki/Integrated_development_environment)) as a software application that provides the necessary tools to develop softwawre. The Nitrous.IO Web IDE, therefore is just a web-based version of your typical IDE. The first iteration of our IDE has the necessary tools for you to develop effectively in the cloud:
 
 * [File Browser](#file-browser)
 * [File Editor](#file-editor)
 * [File Uploading](#file-uploading)
-* [Action Console](#action-console)
+* [Console](#console)
 * [Previewing Application on the Web](#previewing)
 
 Spinning up the IDE is simple. From your list of boxes, just click one of the box rows to toggle it's details, and click the IDE button at the bottom of the box information. 
@@ -19,7 +19,7 @@ Spinning up the IDE is simple. From your list of boxes, just click one of the bo
 
 ### <a id="file-browser"></a> File Browser
 
-Like most IDEs, the action file browser sits at the left-hand side of the window. You'll see the box-name at the top of the file browser, followed by a directory tree of your application.
+Like most IDEs, the file browser sits at the left-hand side of the window. You'll see the box-name at the top of the file browser, followed by a directory tree of your application.
 
 ![File Browser](https://raw.github.com/action-io/action-assets/master/support/screenshots/file-browser.png)
 
@@ -54,9 +54,9 @@ To upload a file, simply click the "Upload Files" button at the bottom of the fi
 
 Files have a maximum of 2MB and must be a .png, .jpg, .gif or .pdf. 
 
-### <a id="console"></a> Action Console
+### <a id="console"></a> Console
 
-The Action.IO Web IDE also provides a full shell at the bottom of the screen. This allows you to handle your command line tasks with your code editing all in one place. You can open multiple windows to execute long-running tasks like tests, webservers, etc...
+The Nitrous.IO Web IDE also provides a full shell at the bottom of the screen. This allows you to handle your command line tasks with your code editing all in one place. You can open multiple windows to execute long-running tasks like tests, webservers, etc...
 
 _New Console Window_
 
@@ -70,19 +70,19 @@ If you want to just code in your browser using the web console (good for iPad co
 
 ### <a id="previewing"></a> Previewing Applications
 
-I'm using the Action.IO Web IDE to write this blog post, using the Jekyll static site generator. Jekyll's server runs on port 4000, so I can preview my progress by selecting the "Preview" dropdown menu and clicking port 4000. 
+I'm using the Nitrous.IO Web IDE to write this blog post, using the Jekyll static site generator. Jekyll's server runs on port 4000, so I can preview my progress by selecting the "Preview" dropdown menu and clicking port 4000.
 
 ![Console Tabs](https://raw.github.com/action-io/action-assets/master/support/screenshots/preview-menu.png)
 
 The preview opens up in a new tab with the link to your accessible web url:
 
-![Action Blog](/images/web-preview.png)
+![Nitrous.IO Blog](/images/web-preview.png)
 
 ### Things will improve quickly
 
-We want to improve the way you develop software and we're here to make your lives easier. The easiest way for us to do that, is if we can talk to you directly to get your thoughts and feedback on the platform. You can get in touch with any of our team by visiting our [chatroom](https://action.io/chat) or by [emailing us](mailto:support@action.io).
+We want to improve the way you develop software and we're here to make your lives easier. The easiest way for us to do that, is if we can talk to you directly to get your thoughts and feedback on the platform. You can get in touch with any of our team by visiting our [chatroom](https://www.nitrous.io/chat) or by [emailing us](mailto:support@nitrous.io).
 
-### Action.IO is not just a Web IDE
+### Nitrous.IO is not just a Web IDE
 
-Action.IO is a platform, not just a Web IDE. While we do provide a Web IDE for lightweight development, we understand that most developers want to code in a variety of different ways. In the next few weeks, we'll be writing about the other ways to connect and develop on your Action.IO boxes, so stay tuned and [follow us on twitter](https://twitter.com/actionio) for updates. 
+Nitrous.IO is a platform, not just a Web IDE. While we do provide a Web IDE for lightweight development, we understand that most developers want to code in a variety of different ways. In the next few weeks, we'll be writing about the other ways to connect and develop on your Nitrous.IO boxes, so stay tuned and [follow us on twitter](https://twitter.com/NitrousIO) for updates.
 

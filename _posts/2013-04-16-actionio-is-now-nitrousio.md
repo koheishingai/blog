@@ -37,7 +37,7 @@ Of course, there's still a ton of work to do and we can't do it alone. Which bri
 
 ## We're [hiring](https://www.nitrous.io/jobs?ref=blog)!
 
-With the funding, we're looking to expand our [current team](https://www.action.io/jobs). We're hiring [generalist](https://www.nitrous.io/jobs#software) and [dev ops](https:https://www.nitrous.io/jobs#devops) engineers. We have offices in San Francisco and Singapore, but  we're open to remote work and we'll help to relocate you if you're not already in the area.
+With the funding, we're looking to expand our [current team](https://www.nitrous.io/jobs). We're hiring [generalist](https://www.nitrous.io/jobs#software) and [dev ops](https:https://www.nitrous.io/jobs#devops) engineers. We have offices in San Francisco and Singapore, but  we're open to remote work and we'll help to relocate you if you're not already in the area.
 
 Last, but certainly not least, we'd like to thank all of our incredible private beta users for helping us improve the platform thus far. We'll be shipping some really amazing new features over the next couple months, as well as continuing to work on ensuring the fastest, most reliable development experience possible.
 

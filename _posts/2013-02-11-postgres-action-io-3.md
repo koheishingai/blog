@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Postgres + Action.IO = <3
+title: Postgres + Action.IO = &lt;3
 ---
 
 PostgreSQL is one of the most popular databases for developers these days. Postgres is known for its stability, extensibility, and phenomenal spatial computation, amongst other things. Many of you probably switched to Postgres when you deployed your first app to [Heroku](http://heroku.com).
 
-Today, we'll be setting up a Postgres development database using [Heroku Postgres](https://postgres.heroku.com) for a sample Rails 3 application running on [Action.IO](https://action.io).
+Today, we&rquo;ll be setting up a Postgres development database using [Heroku Postgres](https://postgres.heroku.com) for a sample Rails 3 application running on [Nitrous.IO](https://www.nitrous.io/).
 
 ###  Postgres as a Service
 
@@ -15,21 +15,21 @@ In a true cloud development environment, we follow the 12Factor.net convention o
 
 ### Prerequisites
 
-Setting up your Action.IO box to use a Heroku Postgres database is easy. Before we get started, make sure you have the following:
+Setting up your Nitrous.IO box to use a Heroku Postgres database is easy. Before we get started, make sure you have the following:
 
 * A [Heroku Postgres account](https://postgres.heroku.com/)
-* An [Action.IO account](https://action.io)
-* A [Box](http://help.action.io/customer/portal/articles/802603-create-a-box) on Action.IO.
+* An [Nitrous.IO account](https://www.nitrous.io/)
+* A [Box](http://help.nitrous.io/box-new/) on Nitrous.IO.
 
-### Create an Application on your Action.IO Box
+### Create an Application on your Nitrous.IO Box
 
-In: [Action.IO](https://action.io)
+In: [Nitrous.IO](https://www.nitrous.io/)
 
 Postgres isn't installed on our Rails box, but it doesn't need to be. Let's go ahead and create a sample todo application. Navigate into your workspace:
 
     action@your-box:~/workspace$ rails new todo-app -d postgresql
 
-The "-d" flag tells Bundler to install the pg gem by default. If you look at *config/database.yml* in your new application, you'll find that it's configured to use postgresql. Normally, Rails will use SQLite by default, which is sufficient for most simple applications and is supported by Action.IO out of the box.
+The "-d" flag tells Bundler to install the pg gem by default. If you look at *config/database.yml* in your new application, you'll find that it's configured to use postgresql. Normally, Rails will use SQLite by default, which is sufficient for most simple applications and is supported by Nitrous.IO out of the box.
 
 ### Create a Development Database on Heroku Postgres
 
@@ -59,7 +59,7 @@ Click the database title and a modal will appear where you can change the name o
 
 In: [Heroku Postgres](https://postgres.heroku.com)
 
-Ok cool. Now that we've got our schema setup, we want to run our database migrations. We need to tell our Rails app running on Action.IO to talk to Heroku for it's Postgres resources. Let's get that setup.
+Ok cool. Now that we've got our schema setup, we want to run our database migrations. We need to tell our Rails app running on Nitrous.IO to talk to Heroku for it's Postgres resources. Let's get that setup.
 
 In the *Heroku Postgres* website, click your database name (todo-app-dev) to get to the database dashboard. To the right of the screen, you'll see a little double arrow icon. This reveals a dropdown with connection settings:
 
@@ -67,7 +67,7 @@ In the *Heroku Postgres* website, click your database name (todo-app-dev) to get
 
 For the Rails application we're building today, we're going to select the "Active Record" row, but you can easily retrieve the connecting settings for Django, PHP, Java, and a variety of other apps using Heroku Postgres.
 
-Go ahead and copy the *Active Record* settings from the Heroku Postgres website and replace the development settings in config/database.yml back on your Action.IO box. It should look like this:
+Go ahead and copy the *Active Record* settings from the Heroku Postgres website and replace the development settings in config/database.yml back on your Nitrous.IO box. It should look like this:
 
 ![Postgres Settings](https://raw.github.com/action-io/action-assets/master/support/screenshots/postgres/databaseyml.png)
 
@@ -75,7 +75,7 @@ Go ahead and copy the *Active Record* settings from the Heroku Postgres website 
 
 ### Create some Models
 
-In: [Action.IO](https://action.io)
+In: [Nitrous.IO](https://www.nitrous.io/)
 
 Before we create the database, we need a database schema for our application so we know what type of data we want to store. Our basic todo app will consist of a Todo List which will contain many Tasks. Let's get those set up:
 
@@ -121,13 +121,13 @@ This is pretty basic rails stuff, we're not going to write tests for this blog p
 
 ### Migrate the DB
 
-In: [Action.IO](https://action.io)
+In: [Nitrous.IO](https://www.nitrous.io)
 
-Now that our connection settings are in place and we have some database migrations set up, we can go ahead and run the initial migration on our Action.IO box to create the tables and seed the heroku postgres database. In your Action.IO console, navigate into your app's directory and type:
+Now that our connection settings are in place and we have some database migrations set up, we can go ahead and run the initial migration on our Nitrous.IO box to create the tables and seed the heroku postgres database. In your Nitrous.IO console, navigate into your app's directory and type:
 
     action@bonzai-1174:~/workspace/todo$ rake db:migrate
 
-<p class="alert">Take note: if you're getting a weird YAML parsing error when trying to run rake db:migrate, there's probably some extraneous characters being included when you paste into Action.IO. Try either typing the settings manually, or unchecking "Soft Tabs" in the "Tab Size" menu at the top of the IDE editor.</p>
+<p class="alert">Take note: if you're getting a weird YAML parsing error when trying to run rake db:migrate, there's probably some extraneous characters being included when you paste into Nitrous.IO. Try either typing the settings manually, or unchecking "Soft Tabs" in the "Tab Size" menu at the top of the IDE editor.</p>
 
 ![Soft Tabs](https://raw.github.com/action-io/action-assets/master/support/screenshots/tab-menu.png)
 
@@ -137,7 +137,7 @@ If things run correctly, you should see the following output, with your tables b
 
 ### Start up the App
 
-In: [Action.IO](https://action.io)
+In: [Nitrous.IO](https://www.nitrous.io/)
 
 We'll need to setup some default routes to tell Rails how to fetch resources for us. In *config/routes.rb* change the resources to nested resources like so:
 
@@ -149,7 +149,7 @@ And add the default root route at the bottom of the file:
 
     root :to => 'lists#index'
 
-We'll use the default WEBRICK rails server to make our application available and make sure we can create a new list and some tasks. Open up a new console in the Action.IO Web IDE (or [via SSH](http://help.action.io/customer/portal/articles/802633-add-ssh-keys-to-your-action-io-account)) and type:
+We'll use the default WEBRICK rails server to make our application available and make sure we can create a new list and some tasks. Open up a new console in the Nitrous.IO Web IDE (or [via SSH](http://help.action.io/ssh-add/)) and type:
 
     action@bonzai-1174:~/workspace/todo$ rails server
 
@@ -169,7 +169,7 @@ Click "Create List", and ...
 
 We'll see that our list was created and saved to the database successfully. This means that our Postgres connection is working correctly.
 
-How'd it go for you? If you're having trouble, you can get in touch with us by visiting our [chatroom](https://action.io/chat) or by [emailing us](mailto:support@action.io).
+How'd it go for you? If you're having trouble, you can get in touch with us by visiting our [chatroom](https://www.nitrous.io/chat) or by [emailing us](mailto:support@nitrous.io).
 
 
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Build Meteor apps in the browser with Action.IO and MongoLab
+title: Build Meteor apps in the browser with Nitrous.IO and MongoLab
 ---
 
-[Meteor](http://meteor.com) is the new kid on the block that lets you quickly build web applications and host them effortlessly on meteor's servers. Meteor comes bundled with MongoDB which it uses at it's de-facto datastore. While the Meteor guys have done a great job with the installation process, developers might still be wary of polluting their local dev environments with another platform. This is where Action.IO can help.
+[Meteor](http://meteor.com) is the new kid on the block that lets you quickly build web applications and host them effortlessly on meteor's servers. Meteor comes bundled with MongoDB which it uses at it's de-facto datastore. While the Meteor guys have done a great job with the installation process, developers might still be wary of polluting their local dev environments with another platform. This is where Nitrous.IO can help.
 
 ###  Look Ma, No Root
 
-Unfortunately, the Meteor installation process on Linux requires root access (not available on our [free plan](https://action.io/pricing)), as well as the installation of a MongoDB server on your machine.
+Unfortunately, the Meteor installation process on Linux requires root access (not available on our [free plan](https://www.nitrous.io/pricing)), as well as the installation of a MongoDB server on your machine.
 
 This post will demonstrate how to setup meteor without root access and how to setup a free MongoDB instance from the great [MongoLab](http://mongolab.com) service, all from your favorite internet browser.
 
@@ -15,15 +15,15 @@ This post will demonstrate how to setup meteor without root access and how to se
 
 Before we get started, make sure you have the following:
 
-* A [MongoLab account](https://mongolab.com/)
-* An [Action.IO account](https://action.io) (We're still in private
+* A [Nitrous.IO account](https://www.nitrous.io/) (We're still in private
   beta, but we're sending out invites at a pretty fast clip, so do sign
   up!)
-* A [Node.JS Box](http://help.action.io/customer/portal/articles/802603-create-a-box) on Action.IO.
+* A [Node.js Box](http://help.nitrous.io/box-new/) on Nitrous.IO.
+* A [MongoLab account](https://mongolab.com/)
 
 ### Create MongoDB database on MongoLab
 
-You can refer to the [MongoDB help article](http://help.action.io/customer/portal/articles/1007291-mongodb-integration-mongolab-) for detailed instructions on how to setup a free MongoDB database on MongoLab.
+You can refer to the [MongoDB help article](http://help.nitrous.io/mongodb/) for detailed instructions on how to setup a free MongoDB database on MongoLab.
 
 Assuming you set up environment variables correctly in your **~/.bash_profile**  (see the above article), you should have the following environment variables set:
 
@@ -64,7 +64,7 @@ This will install the binary "mrt" for you, which you can then use instead of th
 
 ### Create a Sample App
 
-We can now install one of the sample apps, let's try it with the "wordplay" application which is quite fun. Change directories into the "workspace" directory on your Action.IO box and create the wordplay app, using the following commands:
+We can now install one of the sample apps, let's try it with the "wordplay" application which is quite fun. Change directories into the "workspace" directory on your Nitrous.IO box and create the wordplay app, using the following commands:
 
     $ cd ~/workspace
     $ mrt create --example wordplay
@@ -90,7 +90,7 @@ You can now view your shiny new Meteor app, by clicking on the "Preview" menu, f
 
 ### Deploy to Meteor.com
 
-<p class="note">Action.IO is not a production deployment system. We recommend you code on Action.IO and deploy using the platforms such as <a href="http://appfog.com">AppFog</a>, <a href="http://heroku.com">Heroku</a>, <a href ="http://cloudfoundry.com">CloudFoundry</a>, or <a href="http://meteor.com">Meteor</a>.</p>
+<p class="note">Nitrous.IO is not a production deployment system. We recommend you code on Nitrous.IO and deploy using the platforms such as <a href="http://appfog.com">AppFog</a>, <a href="http://heroku.com">Heroku</a>, <a href ="http://cloudfoundry.com">CloudFoundry</a>, or <a href="http://meteor.com">Meteor</a>.</p>
 
 Deploying to meteor.com is incredibly simple, just run:
 
@@ -99,12 +99,12 @@ Deploying to meteor.com is incredibly simple, just run:
 
 <p class="alert">Change the name of your deploy target so that it doesn't clash with ours!</p>
 
-In a matter of minutes, we've created and deployed a [great little game](http://ajs-word-play.meteor.com/) on Meteor, developed in the browser using [Action.IO](https://www.action.io) and MongoLab.
+In a matter of minutes, we've created and deployed a [great little game](http://ajs-word-play.meteor.com/) on Meteor, developed in the browser using [Nitrous.IO](https://www.nitrous.io/) and MongoLab.
 
 ### Your Turn!
 
-You can experiment on your own using different [MongoDB hosting providers](https://www.mongohq.com/home), or by tweaking the word-play app. If you're more adventurous, try creating a completely new Meteor app from scratch on Action.IO and deploy it to Meteor.
+You can experiment on your own using different [MongoDB hosting providers](https://www.mongohq.com/home), or by tweaking the word-play app. If you're more adventurous, try creating a completely new Meteor app from scratch on Nitrous.IO and deploy it to Meteor.
 
-We're still in private beta but are giving out invites as quickly as we can, so sign up at [Action.IO](https://www.action.io) and we'll hook you up soon.
+We're still in private beta but are giving out invites as quickly as we can, so sign up at [Nitrous.IO](https://www.nitrous.io/) and we'll hook you up soon.
 
-For our regular users: How'd it go for you? If you're having trouble, you can always get in touch with us by visiting our [chatroom](https://action.io/chat) or by [emailing us](mailto:support@action.io).
+For our regular users: How'd it go for you? If you're having trouble, you can always get in touch with us by visiting our [chatroom](https://www.nitrous.io/chat) or by [emailing us](mailto:support@nitrous.io).

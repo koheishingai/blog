@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rob Pike's Dream Setup and Action.IO
+title: Rob Pike's Dream Setup and Nitrous.IO
 ---
 
 Rob Pike had an awesome description of his [dream
@@ -22,7 +22,7 @@ eyes gleamed with excitement upon reading this paragraph:
 > where I left off, pretty much.
 
 If this isn't a stronger endorsement of the future we envision at
-[Action.IO](https://www.action.io), then I don't know what is. While a
+[Nitrous.IO](https://www.nitrous.io/), then I don't know what is. While a
 lot of regular users are jumping aboard the 'thin computing revolution',
 us developers are still hanging on to Steve Jobs' metaphorical trucks.
 We want the raw computing power of our computers &ndash; but clinging to
@@ -31,12 +31,11 @@ spend hours setting up development environments; we can't upgrade
 computers and OS's quickly without worrying about whether it breaks our
 rubygems; we can't collaborate in real-time with a team-mate
 half-a-globe away; and we can't code on Chromebooks, (much to the
-chagrin of a certain [Linus
-Torvalds](https://plus.google.com/+LinusTorvalds/posts/EBgLFSHEFAK)).
+chagrin of a certain [Linus Torvalds](https://plus.google.com/+LinusTorvalds/posts/EBgLFSHEFAK)).
 
 ### It needn't be a dream
 
-We at Action.IO have been coding on remote boxes for the last few months
+We at Nitrous.IO have been coding on remote boxes for the last few months
 and it has been quite liberating. I've downgraded my home computer to
 Snow Leopard (my old iMac just couldn't handle Mountain Lion), bought a
 new office laptop, and haven't skipped a beat with my work. By wrapping
@@ -44,7 +43,7 @@ our development in tmux sessions, we can even maintain cursor positions
 as and when we move from our office laptop to the home desktop (and
 back). Since we're all vim/emacs users, it hasn't been that much of a pain
 moving to this brave new world, we realize that many users love their
-Textmates, Sublime Texts and Eclipses and so our vision for action.io is
+Textmates, Sublime Texts and Eclipses and so our vision for Nitrous.IO is
 a platform which will enable you to connect to your development
 environment in many different ways.
 
