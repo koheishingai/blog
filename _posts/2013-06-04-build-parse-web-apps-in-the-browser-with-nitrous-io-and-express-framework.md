@@ -41,17 +41,14 @@ dashboard.
 
 ![ParseApp Subdomain](/images/parse-subdomain.png)
 
-### Setting up Parse's Command Line Tool
+### Parse Command Line Tool
 
-First, we have to install Parse&rsquo;s command line tool. Unfortunately
-the one-line command in their documentation requires super-user access
-that [Nitrous.IO](https://www.nitrous.io/) currently does not provide,
-so you will have to run the following instead:
-
-    curl -s https://gist.github.com/petejkim/5709932/raw/377aca30ef1936db155335cd9ac84a84852ff24f/parse-installer-nitrousio.sh | /bin/bash
-
-Once the installation has finished, close the console session and reopen
-a new one so that the changes take effect.
+To setup a Parse Project, you will have to first set up Parse&rsquo;s
+command line tool. The one-line command in their documentation requires
+super-user access that [Nitrous.IO](https://www.nitrous.io/) currently
+does not provide, but fortunately, all [Nitrous.IO](https://www.nitrous.io/)
+boxes come preinstalled with the tool, so you do not have to set it up
+yourself.
 
 ### Setting up a Parse project
 
@@ -110,7 +107,7 @@ the file in Nitrous.IO web IDE, and redeploy to see your changes.
 
 ![Parse App Preview](/images/parse-preview.png)
 
-### Adding a Dynamic Content
+### Adding Dynamic Content
 
 Next, navigating to `<ParseApp URL>/hello`, and you will see a different
 &ldquo;Hello World&rdquo; page along with a congratulatory message. This
