@@ -191,7 +191,7 @@ input:-moz-placeholder {font-size: 14px;font-size: 1.4rem;}
   *display: inline;
   /* IE7 inline-block hack */
   *zoom: 1;
-  padding: 3px 8px 2px;
+  padding: 3px 8px 3px;
   margin-bottom: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
