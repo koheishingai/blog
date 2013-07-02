@@ -3,6 +3,8 @@ layout: post
 title: Build Meteor apps in the browser with Nitrous.IO and MongoLab
 ---
 
+<p class="note">Update: This guide uses <a href="https://github.com/oortcloud/meteorite")>meteorite</a> to install Meteor and only works with versions of meteorite older than 0.6.0. We have updated this guide accordingly.</p>
+
 [Meteor](http://meteor.com) is the new kid on the block that lets you quickly build web applications and host them effortlessly on meteor's servers. Meteor comes bundled with MongoDB which it uses at it's de-facto datastore. While the Meteor guys have done a great job with the installation process, developers might still be wary of polluting their local dev environments with another platform. This is where Nitrous.IO can help.
 
 ###  Look Ma, No Root
@@ -55,9 +57,10 @@ in your console. It should return **mongodb://username:password@abc.mongolab.com
 
 ### Install Meteorite
 
+
 Install [meteorite](https://npmjs.org/package/meteorite) using npm:
 
-    $ npm install -g meteorite
+    $ npm install -g meteorite@"<0.6.0"
 
 Meteorite is a Node.JS Module which lets us upgrade to the latest version of Meteor, and not have any root dependencies.
 This will install the binary "mrt" for you, which you can then use instead of the "meteor" command-line tool.
