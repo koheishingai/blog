@@ -38,8 +38,8 @@ body {
 
 #install-chrome-app {
   position: fixed;
-  top: 48px;
-  right: -48px;
+  top: 42px;
+  right: -42px;
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
@@ -50,7 +50,6 @@ body {
   border: 2px solid #8b1c15;
   border-left: none;
   border-right: none;
-  font-size: 12px;
   text-shadow: 0 0 5px rgba(0,0,0,0.6);
 
   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.3);
@@ -73,6 +72,10 @@ body {
           transition: background-color .5s;
 }
 
+#install-chrome-app:hover {
+  background-color: #8b1c15;
+}
+
 #install-chrome-app p {
   border: 1px dashed #b66967;
   border-left: none;
@@ -81,7 +84,10 @@ body {
   padding: 5px 30px;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
+  line-height: 18px;
+  font-size: 12px;
 }
+
 section[role="main"] {
   margin: 0 auto;
   width: 90%;
