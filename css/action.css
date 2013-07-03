@@ -36,6 +36,52 @@ body {
   color: #f8fcff;
 }
 
+#install-chrome-app {
+  position: fixed;
+  top: 48px;
+  right: -48px;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+
+  z-index: 100;
+  border: 2px solid #8b1c15;
+  border-left: none;
+  border-right: none;
+  font-size: 12px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.6);
+
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+          box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+
+  cursor: pointer;
+
+  background-color: rgba(139,28,21,0.8);
+
+  -webkit-transition: background-color .5s;
+     -moz-transition: background-color .5s;
+       -o-transition: background-color .5s;
+          transition: background-color .5s;
+}
+
+#install-chrome-app p {
+  border: 1px dashed #b66967;
+  border-left: none;
+  border-right: none;
+  margin: 0;
+  padding: 5px 30px;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
 section[role="main"] {
   margin: 0 auto;
   width: 90%;
