@@ -105,10 +105,11 @@ Edit the file app/controllers/posts_controller.rb to contain the following code:
       end
 
       def create
-      @post = Post.new(post_params)
+        @post = Post.new(post_params)
 
-      @post.save
-      redirect_to @post
+        @post.save
+        redirect_to @post
+      end
 
       private
       def post_params
