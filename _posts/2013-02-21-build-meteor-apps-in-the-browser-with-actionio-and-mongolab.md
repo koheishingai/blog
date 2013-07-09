@@ -3,13 +3,11 @@ layout: post
 title: Build Meteor apps in the browser with Nitrous.IO and MongoLab
 ---
 
-<p class="note">Update: This guide uses <a href="https://github.com/oortcloud/meteorite")>meteorite</a> to install Meteor and only works with versions of meteorite older than 0.6.0. We have updated this guide accordingly.</p>
-
 [Meteor](http://meteor.com) is the new kid on the block that lets you quickly build web applications and host them effortlessly on meteor's servers. Meteor comes bundled with MongoDB which it uses at it's de-facto datastore. While the Meteor guys have done a great job with the installation process, developers might still be wary of polluting their local dev environments with another platform. This is where Nitrous.IO can help.
 
 ###  Look Ma, No Root
 
-Unfortunately, the Meteor installation process on Linux requires root access (not available on our [free plan](https://www.nitrous.io/pricing)), as well as the installation of a MongoDB server on your machine.
+Unfortunately, the default Meteor installation process on Linux requires root access (not available on our [free plan](https://www.nitrous.io/pricing)), as well as the installation of a MongoDB server on your machine.
 
 This post will demonstrate how to setup meteor without root access and how to setup a free MongoDB instance from the great [MongoLab](http://mongolab.com) service, all from your favorite internet browser.
 
@@ -55,22 +53,34 @@ in your console. It should return **mongodb://username:password@abc.mongolab.com
 
 (With the values from your own MongoDB database, of course.)
 
-### Install Meteorite
+### Install Meteor
 
+Since the default Meteor installation script requires root access, we will have to manually download and set it up.
 
-Install [meteorite](https://npmjs.org/package/meteorite) using npm:
+In the console, run the following commands:
 
-    $ npm install -g meteorite@"<0.6.0"
+    $ cd ~/workspace
+    $ git clone git://github.com/meteor/meteor.git
 
-Meteorite is a Node.JS Module which lets us upgrade to the latest version of Meteor, and not have any root dependencies.
-This will install the binary "mrt" for you, which you can then use instead of the "meteor" command-line tool.
+After cloning the repo, we shall create an alias to the `meteor` executable script available in it. Open the `~/.bash_profile` again and add this line:
+
+    alias meteor=~/workspace/meteor/meteor
+
+and run the following command so it's set immediately:
+
+    $ source ~/.bash_profile
+
+Running `meteor` for the first time after you install it will cause it
+to install a bunch of dependencies.
+
+Now try running `meteor --help`. If you did the above steps correctly you should see available meteor commands.
 
 ### Create a Sample App
 
 We can now install one of the sample apps, let's try it with the "wordplay" application which is quite fun. Change directories into the "workspace" directory on your Nitrous.IO box and create the wordplay app, using the following commands:
 
     $ cd ~/workspace
-    $ mrt create --example wordplay
+    $ meteor create --example wordplay
 
 You'll see your app being created:
 
@@ -81,7 +91,7 @@ You'll see your app being created:
 Now that we have successfully created the wordplay application, it's your turn to see it work. Change directory to the wordplay app and run mrt:
 
     $ cd ~/workspace/wordplay
-    $ mrt
+    $ meteor
 
 If all goes well, you will see the app running on **http://localhost:3000**.
 
@@ -98,7 +108,7 @@ You can now view your shiny new Meteor app, by clicking on the "Preview" menu, f
 Deploying to meteor.com is incredibly simple, just run:
 
     $ cd ~/workspace/wordplay
-    $ mrt deploy ajs-wordplay.meteor.com
+    $ meteor deploy ajs-wordplay.meteor.com
 
 <p class="alert">Change the name of your deploy target so that it doesn't clash with ours!</p>
 
