@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nitrous.IO for Mac: Cloud coding, re-invented."
+title: "Edit Code on your Mac, Run it in the Cloud"
 ---
 
 ![Mac dropdown](/images/mac-tour-menu@2x.png)
@@ -21,9 +21,13 @@ Today we're going to show you some of the benefits of using [Nitrous.IO for Mac]
 
 First, we'll click the Nitrous.IO menubar and will look for the box we're want to work on. I'm going to choose my Python US West box and open up a shell to that machine. You'll see you also have the option to open up the Web IDE, but today we want to show off working entirely on your Mac.
 
-![Mac open shell](/images/mac-open-shell.png)
+![Mac menu](/images/mac-menu.png)
 
-In this submenu you'll also find the settings for port forwarding and file sync for this box. We'll show off these features in a few minutes.  With one simple click we're SSH'ed into our box in the cloud, or can open the IDE.
+In this submenu you'll also find the settings for port forwarding and file sync for this box. We'll show off these features in a few minutes.
+
+So let's go ahead and click "Open Shell". And with one simple click we're SSH'ed into our box in the cloud.
+
+![Mac Console](/images/mac-console.png)
 
 Now that the IDE is open and we're SSH'ed in our box, let's change directories into our "workspace" folder. Everything in this folder will sync to our Mac's filesystem so we can edit the files locally using SublimeText.
 
