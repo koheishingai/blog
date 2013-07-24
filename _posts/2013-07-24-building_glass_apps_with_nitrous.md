@@ -29,7 +29,8 @@ After cloning the app, we will have to do a `go get` to install the required dep
 
 Then, I opened the `config.go` file and set the client ID and secret for API access. Also, I changed the app `secret` to a random string as suggested in the guide.
 
---screenshot1--
+![edit config.go](/images/edit-file-on-ide.png)
+
 
 Apart from the changes in `config.go`, we also need to set the application's ID in `app.yaml` before deploying the app.
 
@@ -43,7 +44,8 @@ Note the option *--noauth_local_webserver*. We need this because we're actually 
 
 Once the app is deployed, we can visit the app's URL on the browser (eg. your-app-id.appspot.com) and authorize it to manage our Glass timeline. If the app is authorized correctly, we will get a screen like this, where we can insert sample cards to our glass timeline.
 
---screenshot2--
+![screenshot of deployed quickstart app](/images/quickstart-app-preview.png)
+
 
 ### Put on the glasses and Play!
 
