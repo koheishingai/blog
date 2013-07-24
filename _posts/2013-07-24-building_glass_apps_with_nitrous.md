@@ -2,7 +2,7 @@
 
 --add a hipster glass pic?--
 
-I recently got to try [Google Glasses]() thanks to our good friend, [Jeffery Paine](). My immediate reaction after trying it was - Can we build stuff for it? Turns out we can!
+I recently got to try [Google Glasses](http://www.google.com/glass/start/) thanks to our good friend, [Jeffery Paine](https://twitter.com/jpaine). My immediate reaction after trying it was - Can we build stuff for it? Turns out we can!
 
 Google has already released a [preview API](https://developers.google.com/glass/), to create apps that can interact with Glasses. It's pretty comprehensive with wrappers to many popular languages like Java, .Net, PHP, Python and Go. The apps you develop (which will be called as glassware), can be deployed to [Google's AppEngine](https://developers.google.com/appengine).
 
