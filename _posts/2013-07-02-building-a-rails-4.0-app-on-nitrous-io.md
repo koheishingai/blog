@@ -14,7 +14,7 @@ Rails 4.0 incorporates many new features on top of an already very powerful fram
 ### Creating an application on your Nitrous.IO box
 
 First we'll create a simple blog application. This creates an app that connects to SQLite. If you'd like to use [PostgreSQL](http://help.nitrous.io/postgres) instead, append '-d postgresql' to the following command.
-
+<!--break-->
     $ rails new blog
 
 Now, let's switch to the blog directory to continue working on the app:

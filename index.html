@@ -14,7 +14,10 @@ title: Nitrous.IO Blog
             <p class="post-date"> <time pubdate datetime="{{ post.date | date: "%d %B %Y" }}">{{ post.date | date: "%d %B %Y" }}</time></p>
           </hgroup>
         </header>
-        {{ post.content }}
+        {{ post.content | split:'<!--break-->' | first }}
+          {% if post.content contains '<!--break-->' %}
+            <a href="{{ post.url }}">Read...</a>
+          {% endif %}
       </article>
 
       <div class="share-buttons clearfix">

@@ -13,7 +13,7 @@ One request that we heard a lot, is that many developers still want to code usin
 
 <a href="https://www.nitrous.io/mac" class="btn success">Download Nitrous.IO for Mac</a>
 
-Just like [Dropbox](https://www.dropbox.com/), Nitrous.IO sits in your menubar and provides helpful shortcuts and management utilities.
+Just like [Dropbox](https://www.dropbox.com/), Nitrous.IO sits in your menubar and provides helpful shortcuts and management utilities.<!--break-->
 
 Today we're going to show you some of the benefits of using [Nitrous.IO for Mac](https://www.nitrous.io) as we build a simple blog application using [Python](http://www.python.org/) and [Flask](http://flask.pocoo.org/). We'll customize our blog using SublimeText and will preview our python application running in the cloud on Nitrous.IO.  Let's get started!
 

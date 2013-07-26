@@ -5,7 +5,7 @@ title: Postgres + Nitrous.IO = &lt;3
 
 PostgreSQL is one of the most popular databases for developers these days. Postgres is known for its stability, extensibility, and phenomenal spatial computation, amongst other things. Many of you probably switched to Postgres when you deployed your first app to [Heroku](http://heroku.com).
 
-Today, we&rsquo;ll be setting up a Postgres development database using [Heroku Postgres](https://postgres.heroku.com) for a sample Rails 3 application running on [Nitrous.IO](https://www.nitrous.io/).
+Today, we&rsquo;ll be setting up a Postgres development database using [Heroku Postgres](https://postgres.heroku.com) for a sample Rails 3 application running on [Nitrous.IO](https://www.nitrous.io/).<!--break-->
 
 ###  Postgres as a Service
 

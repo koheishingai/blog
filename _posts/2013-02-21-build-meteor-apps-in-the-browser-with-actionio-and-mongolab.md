@@ -7,7 +7,7 @@ title: Build Meteor apps in the browser with Nitrous.IO and MongoLab
 
 ###  Look Ma, No Root
 
-Unfortunately, the default Meteor installation process on Linux requires root access (not available on our [free plan](https://www.nitrous.io/pricing)), as well as the installation of a MongoDB server on your machine.
+Unfortunately, the default Meteor installation process on Linux requires root access (not available on our [free plan](https://www.nitrous.io/pricing)), as well as the installation of a MongoDB server on your machine.<!--break-->
 
 This post will demonstrate how to setup meteor without root access and how to setup a free MongoDB instance from the great [MongoLab](http://mongolab.com) service, all from your favorite internet browser.
 

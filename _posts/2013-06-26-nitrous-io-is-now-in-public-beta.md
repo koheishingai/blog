@@ -19,7 +19,7 @@ cheaper) to create boxes on Nitrous.IO then configuring your own VPS.
 But don't take our word for it-- we're taking the covers off
 today, so go sign up and create your first box for free. 
 
-[Create a free box now!](https://www.nitrous.io)
+[Create a free box now!](https://www.nitrous.io)<!--break-->
 
 For newcomers, here's a brief look at what Nitrous.IO offers you:
 
