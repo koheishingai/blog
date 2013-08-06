@@ -4,16 +4,15 @@ title: Nitrous.IO Stories - Yehuda Katz and Tilde.IO
 ---
 
 <div class="heroshot">
-  <img src="/images/katz.jpg" width="520" alt="yehuda katz and carl lerche" />
+  <img src="/images/katz.jpg" width="320" alt="yehuda katz and carl lerche" />
   <p>image credit: <a target="_blank" href="http://www.flickr.com/photos/adelcambre/4120661510/">Andy Delcambre</a></p>
 </div>
 
 ### Who are you and what do you do?
 
-My name is [Yehuda Katz](http://yehudakatz.com).  I'm a founder of [Tilde](http://tilde.io), a small software shop that does consulting and works on our Rails performance monitoring solution, [Skylight](https://www.skylight.io).  In our free time, most of our engineers also work on [Ember.js](http://emberjs.com), an open source web framework.
+My name is [Yehuda Katz](http://yehudakatz.com).  I'm a founder of [Tilde](http://tilde.io), a small software shop that does consulting and works on our Rails performance monitoring solution, [Skylight](https://www.skylight.io).  In our free time, most of our engineers also work on [Ember.js](http://emberjs.com), an open source web framework. <!--break-->
 
-With Tom Dale, a co-founder at Tilde, I maintain Ember.js and its sister project, Ember Data.  I also help maintain a number of other projects in the ecosystem, like [Handlebars](http://handlebarsjs.com/) and [RSVP.js](https://github.com/tildeio/rsvp.js).  With the exception of Skylight, all of the projects I work on are open source and draw from a large pool of engineering, coding, and writing talent with a wide variety of development environments.  <!--break--> 
-<br/><br/><br/><br/>
+With Tom Dale, a co-founder at Tilde, I maintain Ember.js and its sister project, Ember Data.  I also help maintain a number of other projects in the ecosystem, like [Handlebars](http://handlebarsjs.com/) and [RSVP.js](https://github.com/tildeio/rsvp.js).  With the exception of Skylight, all of the projects I work on are open source and draw from a large pool of engineering, coding, and writing talent with a wide variety of development environments.
 
 ###  What hardware do you use?
 

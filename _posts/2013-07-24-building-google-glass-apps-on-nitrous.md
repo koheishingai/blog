@@ -9,11 +9,10 @@ title: Building Google Glass Apps on Nitrous.IO
 </div>
 
 
-We recently got to try [Google Glass](http://www.google.com/glass/start/) thanks to our good friend, [Jeffery Paine](https://twitter.com/jpaine). Obviously, our immediate reaction after trying it was - can you build stuff for it on [Nitrous.IO](https://www.nitrous.io)?  *Spoiler Alert*: you can!
+We recently got to try [Google Glass](http://www.google.com/glass/start/) thanks to our good friend, [Jeffery Paine](https://twitter.com/jpaine). Obviously, our immediate reaction after trying it was - can you build stuff for it on [Nitrous.IO](https://www.nitrous.io)?  *Spoiler Alert*: you can!  <!--break-->
 
-Google has already released a [preview API](https://developers.google.com/glass/), to create apps that can interact with Glass. It's pretty comprehensive with wrappers to many popular languages like Java, .Net, PHP, Python and Go. The apps you develop (which are referred to as "glassware"), can be [deployed](https://developers.google.com/appengine) easily to Google's AppEngine.  <!--break-->
+Google has already released a [preview API](https://developers.google.com/glass/), to create apps that can interact with Glass. It's pretty comprehensive with wrappers to many popular languages like Java, .Net, PHP, Python and Go. The apps you develop (which are referred to as "glassware"), can be [deployed](https://developers.google.com/appengine) easily to Google's AppEngine.  
 
-<br/><br/><br/><br/>
 
 I decided to start by trying out the [Quick Start Project Demo](https://developers.google.com/glass/quickstart/go) written in Go. It took me less than 15 minutes get it up and running. And guess what! I didn't even have to leave my browser. Yes, you can build glassware on [Nitrous.IO](https://www.nitrous.io).
 
