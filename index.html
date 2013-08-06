@@ -16,7 +16,7 @@ title: Nitrous.IO Blog
         </header>
         {{ post.content | split:'<!--break-->' | first }}
           {% if post.content contains '<!--break-->' %}
-            <a href="{{ post.url }}">Read...</a>
+            <a href="{{ post.url }}">Read More...</a>
           {% endif %}
       </article>
 
