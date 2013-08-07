@@ -42,6 +42,6 @@ One (relatively) small thing: I was really impressed by the attention to detail 
 
 One Nitrous wish: I'd love it if my [tmux workflow](http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course) was baked into the UI so I didn't have to manually enter tmux from the command-line. It would also be awesome if mouse support was part of the prefab tmux and vim recipes.
 
-### Want to be part of a Nitrous.IO Story?
+### Want to use Nitrous.IO in your company?
 
-If you'd like to be featured on our blog and talk about your experiences using Nitrous.IO, please drop us a line at [hello+nitroustory@nitrous.io](mailto:hello+nitroustory@nitrous.io)
+Fill in the [questionnaire here](https://www.nitrous.io/business) and enter our [Nitrous.IO for Business](https://www.nitrous.io/business) private beta.
