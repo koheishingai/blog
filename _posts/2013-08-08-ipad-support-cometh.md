@@ -3,6 +3,9 @@ layout: post
 title: "Coding on an iPad: iFad?"
 ---
 
+![coding on an iphone](/images/iphone-coding.jpg) 
+<figcaption>Ok, maybe this is taking it a little too far...</figcaption>
+
 Hundreds of you asked for iPad support.  We're not entirely sure why…maybe you're tired of carrying around that mammoth 11" macbook air…or maybe you think it'll impress that cute graphic designer you always see at Starbucks (it won't).  
 
 In any case, we want to make your life more awesome, so we  improved the experience on the iPad.  iPad support is still largely experimental, but its something we'll keep improving, so send us any issues you encounter to [support@nitrous.io](support@nitrous.io). 
@@ -29,3 +32,6 @@ There are shortcuts for tab, ctrl, alt, esc, and directional keys which make rea
 * If you have to use a native keyboard on the iPad, the best experience is if you use the split keyboard (where keyboard is on both sides of the screen). 
 
 Remember, this is still in a very rough alpha state, so please send us any issues / feedback so we can continue to improve the experience.  Who knows, maybe in 5 years we'll all be programming on iPads…what do you think?
+
+
+
