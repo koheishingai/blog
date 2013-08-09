@@ -14,7 +14,9 @@ engine crawlers.
 
 This post will demonstrate how you can set up Parse&rsquo;s command line
 tool on your Nitrous.IO box and create your web application powered by
-Parse&rsquo;s scalable cloud infrastructure.<!--break-->
+Parse&rsquo;s scalable cloud infrastructure.
+
+<!--break-->
 
 ### Prerequisites
 
