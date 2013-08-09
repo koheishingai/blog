@@ -1,20 +1,19 @@
 {% include head.html %}
 <body>
   <div id="cont">
-    <section role="main">
-      <header id="page-header" role="banner">
-        <h1>
-          <a href="/">
-            <img src="/images/blogwhite.png" width="160" style="border: none;padding: 0;" />
-          </a>
+    <header id="page-header" role="banner">
+      <div class="wrapper">
+        <h1 class="title">
+          <a href='/'>Nitrous.IO<span> Blog</span></a>
         </h1>
         <ul class="header-nav">
           <li><a href="https://twitter.com/intent/user?screen_name=nitrousio">@nitrousio</a></li>
           <li><a href="http://updates.nitrous.io">updates</a></li>
           <li><a href="https://www.nitrous.io" class="btn">home</a></li>
         </ul>
-      </header>
-      <hr />
+      </div>
+    </header>
+      <section role="main">
       <div id="content">
         {{ content }}
       </div>
