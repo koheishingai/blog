@@ -5,6 +5,7 @@
 
 .container {
   max-width: 728px;
+  padding: 0 8px;
 }
 
 body, body p {
