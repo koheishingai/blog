@@ -3,10 +3,10 @@ layout: post
 title: Nitrous.IO Stories - Yehuda Katz and Tilde.IO
 ---
 
-<div class="heroshot">
-  <img src="/images/katz.jpg" width="320" alt="yehuda katz and carl lerche" />
-  <p>image credit: <a target="_blank" href="http://www.flickr.com/photos/adelcambre/4120661510/">Andy Delcambre</a></p>
-</div>
+<img src="/images/katz.jpg" alt="yehuda katz and carl lerche" />
+<p class="small text-muted">
+  image credit: <a target="_blank" href="http://www.flickr.com/photos/adelcambre/4120661510/">Andy Delcambre</a>
+</p>
 
 ### Who are you and what do you do?
 

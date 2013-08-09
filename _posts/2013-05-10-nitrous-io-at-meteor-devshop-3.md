@@ -8,7 +8,7 @@ Francisco office. As you may know, Meteor is a framework that lets you quickly b
 
 <iframe width="560" height="315"
 src="http://www.youtube.com/embed/Ah3dK883Q18" frameborder="0"
-allowfullscreen style="margin: 0 auto; display: block;"></iframe>
+allowfullscreen style="display: block;"></iframe>
 
 It went pretty well and we met some great people and saw some great
 demos of Meteor's capabilities. You can read more about it

@@ -11,7 +11,7 @@ One request that we heard a lot, is that many developers still want to code usin
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/NWLM7iHLmpo" frameborder="0" allowfullscreen></iframe>
 
-<a href="https://www.nitrous.io/mac" class="btn success">Download Nitrous.IO for Mac</a>
+<a href="https://www.nitrous.io/mac" class="btn btn-success">Download Nitrous.IO for Mac</a>
 
 Just like [Dropbox](https://www.dropbox.com/), Nitrous.IO sits in your menubar and provides helpful shortcuts and management utilities.<!--break-->
 
