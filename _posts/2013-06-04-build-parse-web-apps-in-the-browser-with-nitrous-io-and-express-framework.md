@@ -16,8 +16,6 @@ This post will demonstrate how you can set up Parse&rsquo;s command line
 tool on your Nitrous.IO box and create your web application powered by
 Parse&rsquo;s scalable cloud infrastructure.
 
-<!--break-->
-
 ### Prerequisites
 
 Before we get started, make sure you have the following:
@@ -27,6 +25,8 @@ Before we get started, make sure you have the following:
   private beta, but do sign up and ask for an invite on
   [Twitter](https://www.twitter.com/nitrousio).)
 * A [Node.js Box](http://help.nitrous.io/box-new/) on Nitrous.IO.
+
+<!--break-->
 
 ### Creating an App on Parse
 

@@ -11,11 +11,12 @@ First thing's first: You may have noticed that we've got a [new name](https://ww
 
 For those who don't know, the word Nitrous comes from Nitrous Oxide, a chemical compound commonly used in motor racing to increase the power output of engines.
 
-<!--break-->
 
 ### We'll be around for awhile!
 
 Part two: If you were worried that this was a fad, and that we were going to move on to other projects after a few months -- worry no more. Today we announced that we [raised money](http://techcrunch.com/2013/04/16/nitrous-io-seed-funding/) to continue to build and improve Nitrous.IO. We've got an incredible group of investors who have helped build some of the world's most innovative and successful companies. They are incredibly supportive of our vision for Nitrous.IO: To simplify your everyday workflow as a developer.
+
+<!--break-->
 
 ### Things are fast, really fast
 

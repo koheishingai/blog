@@ -7,13 +7,14 @@ The ability to upgrade the memory/storage configurations of your boxes has been 
 
 At any point you can change the memory/storage configuration of your boxes. After creating a box with 384MB of memory and you realize that you need more memory for your (say) Java application, then you can upgrade the memory configuration of your box without having to create a new box.
 
-<!--break-->
 
 ### Upgrading a Box
 
 Look for the `Settings` button (after clicking on your box name) in your [box dashboard](https://www.nitrous.io/app).
 
 ![Settings Button](/images/box-settings-button.png)
+
+<!--break-->
 
 Clicking on that link will take you to your Box Settings page, where you can move the memory and storage sliders to the right to increase the memory and storage configurations your box.
 

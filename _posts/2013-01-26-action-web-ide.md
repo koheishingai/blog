@@ -5,13 +5,15 @@ title: The Nitrous.IO Web IDE
 
 We've spent much of the last few months working behind the scenes on the Nitrous.IO platform, to ensure we can provide the best performing and most stable cloud development environment. We're confident with our progress to date, and will be sending out invites to the extremely large group of requests we've received over the past few months. Over the next few weeks, we'll be writing some blog posts about the different ways you can connect to your Nitrous.IO development boxes.
 
-The first, and most common these days amongst cloud development platforms, is the Web IDE. Most software developers know the "IDE" ([Integrated Development Environment](http://en.wikipedia.org/wiki/Integrated_development_environment)) as a software application that provides the necessary tools to develop softwawre. The Nitrous.IO Web IDE, therefore is just a web-based version of your typical IDE. The first iteration of our IDE has the necessary tools for you to develop effectively in the cloud<!--break-->:
+The first, and most common these days amongst cloud development platforms, is the Web IDE. Most software developers know the "IDE" ([Integrated Development Environment](http://en.wikipedia.org/wiki/Integrated_development_environment)) as a software application that provides the necessary tools to develop softwawre. The Nitrous.IO Web IDE, therefore is just a web-based version of your typical IDE. The first iteration of our IDE has the necessary tools for you to develop effectively in the cloud:
 
 * [File Browser](#file-browser)
 * [File Editor](#file-editor)
 * [File Uploading](#file-uploading)
 * [Console](#console)
 * [Previewing Application on the Web](#previewing)
+
+<!--break-->
 
 Spinning up the IDE is simple. From your list of boxes, just click one of the box rows to toggle it's details, and click the IDE button at the bottom of the box information. 
 

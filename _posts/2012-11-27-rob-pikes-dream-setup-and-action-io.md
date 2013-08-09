@@ -20,7 +20,9 @@ eyes gleamed with excitement upon reading this paragraph:
 > and mouse and network and all that, was just a portal to the real
 > computers in the back. When I left work and went home, I could pick up
 > where I left off, pretty much.
+
 <!--break-->
+
 If this isn't a stronger endorsement of the future we envision at
 [Nitrous.IO](https://www.nitrous.io/), then I don't know what is. While a
 lot of regular users are jumping aboard the 'thin computing revolution',

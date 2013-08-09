@@ -5,13 +5,15 @@ title: Postgres + Nitrous.IO = &lt;3
 
 PostgreSQL is one of the most popular databases for developers these days. Postgres is known for its stability, extensibility, and phenomenal spatial computation, amongst other things. Many of you probably switched to Postgres when you deployed your first app to [Heroku](http://heroku.com).
 
-Today, we&rsquo;ll be setting up a Postgres development database using [Heroku Postgres](https://postgres.heroku.com) for a sample Rails 3 application running on [Nitrous.IO](https://www.nitrous.io/).<!--break-->
+Today, we&rsquo;ll be setting up a Postgres development database using [Heroku Postgres](https://postgres.heroku.com) for a sample Rails 3 application running on [Nitrous.IO](https://www.nitrous.io/).
 
 ###  Postgres as a Service
 
 The usage of a database-in-the-cloud might be a new concept to you. Even if it's not, this might be the first time you're setting up a development database in the cloud. You'll find that it's considerably easier to setup and manage than on your own machine.
 
 In a true cloud development environment, we follow the 12Factor.net convention of treating [Backing Services](http://12factor.net/backing-services) such as databases as attached resources. This makes our application more resilient, by allowing us to easily switch database services without changes to the code. We only need to update the resource handle in our application config.
+
+<!--break-->
 
 ### Prerequisites
 

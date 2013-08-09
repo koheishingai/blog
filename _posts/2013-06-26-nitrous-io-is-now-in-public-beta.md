@@ -11,13 +11,14 @@ We've made significant improvements across all parts of the platform, most notab
 
 <a class="btn btn-success" href="https://www.nitrous.io">Create a free box now</a>
 
-<!--break-->
 
 For newcomers, here's a brief look at what Nitrous.IO offers you:
 
 <div class="well">
   <iframe width="560" height="315" src="http://www.youtube.com/embed/u6Qu9T5lRqI" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<!--break-->
 
 ### N2O
 

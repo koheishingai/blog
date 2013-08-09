@@ -10,13 +10,15 @@ title: Nitrous.IO Stories - Yehuda Katz and Tilde.IO
 
 ### Who are you and what do you do?
 
-My name is [Yehuda Katz](http://yehudakatz.com).  I'm a founder of [Tilde](http://tilde.io), a small software shop that does consulting and works on our Rails performance monitoring solution, [Skylight](https://www.skylight.io).  In our free time, most of our engineers also work on [Ember.js](http://emberjs.com), an open source web framework. <!--break-->
+My name is [Yehuda Katz](http://yehudakatz.com).  I'm a founder of [Tilde](http://tilde.io), a small software shop that does consulting and works on our Rails performance monitoring solution, [Skylight](https://www.skylight.io).  In our free time, most of our engineers also work on [Ember.js](http://emberjs.com), an open source web framework.
 
 With Tom Dale, a co-founder at Tilde, I maintain Ember.js and its sister project, Ember Data.  I also help maintain a number of other projects in the ecosystem, like [Handlebars](http://handlebarsjs.com/) and [RSVP.js](https://github.com/tildeio/rsvp.js).  With the exception of Skylight, all of the projects I work on are open source and draw from a large pool of engineering, coding, and writing talent with a wide variety of development environments.
 
 ###  What hardware do you use?
 
 These days, I almost exclusively use a [ChromeBook Pixel](http://www.google.com/intl/en_us/chrome/devices/chromebook-pixel/) with ChromeOS.  The hardware is great and ChromeOS continues to improve by leaps and bounds. My machine has access to Developer Mode and Crouton, which gives me Ubuntu in a tab, but I much prefer to use a cloud-based service like [Nitrous](https://www.nitrous.io), which allows me to pick up where I left off at any machine with Chrome on it.
+
+<!--break-->
 
 I use a bunch of other machines periodically (an iMac at work, a MacBook Air occasionally when working on presentations, the occasional Windows machine), and the ability to drop into my tmux session from anywhere and keep going is really awesome.
 
