@@ -16,20 +16,14 @@ layout: default
 
 {% include sharing.html %}
 
-{% if page.previous.url %}
-  <div class="older"><a href="{{page.previous.url}}" title="Older">Older Posts &raquo;</a></div>
-{% endif %}
+<div class="pnav clearfix">
+  {% if page.previous.url %}
+    <a href="{{page.previous.url}}" title="Older" class="pnav older pull-right">Older Posts &raquo;</a>
+  {% endif %}
 
-{% if page.next.url %}
-  <div class="newer"><a href="{{page.next.url}}" title="Newer">&laquo; Newer Posts</a></div>
-{% endif %}
+  {% if page.next.url %}
+    <a href="{{page.next.url}}" title="Newer" class="pnav newer pull-left">&laquo; Newer Posts</a>
+  {% endif %}
+</div>
 
-{% if site.related_posts.count > 0 %}
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endif %}
 <hr />
