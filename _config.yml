@@ -1,6 +1,7 @@
 auto: true
 markdown: rdiscount
 pygments: true
+paginate: 7
 exclude:
   - README.md
   - Rakefile

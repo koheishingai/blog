@@ -45,6 +45,21 @@ body {
   font-size: 12px;
 }
 
+#older {
+float: left;
+margin: 0 0 0 0;
+}
+
+#newer {
+float: right;
+text-align: right;
+}
+
+#pagination {
+padding: 1em 0 4em 0;
+width: 100%;
+}
+
 #install-chrome-app {
   position: fixed;
   top: 42px;
