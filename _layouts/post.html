@@ -4,13 +4,15 @@ layout: default
 
 <div class="post">
   {% if post.draft %}
-    <div class="notice"> You've stumbled upon a draft. Sorry if it's illegible!</div>
+    <p class="alert"> You've stumbled upon a draft. Sorry if it's illegible!</p>
   {% else %}
     <article>
       <header>
         <hgroup>
-          <h1 class='post-title'> {{ page.title }}</h1>
-          <p class="post-date"> <time pubdate datetime="{{ page.date | date: "%d %B %Y" }}">{{ page.date | date: "%d %B %Y" }}</time></p>
+          <h1> {{ page.title }}</h1>
+          <p>
+            <time pubdate datetime="{{ page.date | date: "%d %B %Y" }}">{{ page.date | date: "%d %B %Y" }}</time>
+          </p>
         </hgroup>
       </header>
       {{ content }}
@@ -20,25 +22,20 @@ layout: default
 
 {% include sharing.html %}
 
-<div id="post-nav" class="clearfix">
-  {% if page.previous.url %}
-    <div class="older"><a href="{{page.previous.url}}" title="Older">Older Posts &raquo;</a></div>
-  {% endif %}
+{% if page.previous.url %}
+  <div class="older"><a href="{{page.previous.url}}" title="Older">Older Posts &raquo;</a></div>
+{% endif %}
 
-  {% if page.next.url %}
-    <div class="newer"><a href="{{page.next.url}}" title="Newer">&laquo; Newer Posts</a></div>
-  {% endif %}
-</div>
+{% if page.next.url %}
+  <div class="newer"><a href="{{page.next.url}}" title="Newer">&laquo; Newer Posts</a></div>
+{% endif %}
 
 {% if site.related_posts.count > 0 %}
-<div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>
 {% endif %}
 <hr />
-
