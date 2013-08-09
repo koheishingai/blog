@@ -20,7 +20,7 @@ Now when you're on the iPad or an Android tablet, we provide a shortcut so you c
 
 Tapping on the console will automatically open up the native keyboard on your tablet if you don't have a bluetooth keyboard installed.
 
-![softkeys](/images/ipad-softkeys.png)
+![softkeys](/images/ipad-softkeys-2.png)
 
 The virtual keyboard on the iPad was not designed with programming in mind.  So we built a Softkey panel that allows you to enter keys that don't appear on the virtual keyboard.
 
