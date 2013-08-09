@@ -9,11 +9,15 @@ We've received tons of amazing feedback from our users since launching the publi
 
 One request that we heard a lot, is that many developers still want to code using their favorite Mac text editor like [SublimeText](http://www.sublimetext.com/), [Textmate](http://macromates.com/) and [BBEdit](http://www.barebones.com/products/bbedit/index.html).  So we built [Nitrous.IO for Mac](https://www.nitrous.io/mac) to give them a way to setup development environments quickly and easily on Nitrous.IO, while still being able to use their favorite Mac editor.
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/NWLM7iHLmpo" frameborder="0" allowfullscreen></iframe>
+<!--break-->
+
+<div class="well">
+  <iframe width="640" height="360" src="//www.youtube.com/embed/NWLM7iHLmpo" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <a href="https://www.nitrous.io/mac" class="btn btn-success">Download Nitrous.IO for Mac</a>
 
-Just like [Dropbox](https://www.dropbox.com/), Nitrous.IO sits in your menubar and provides helpful shortcuts and management utilities.<!--break-->
+Just like [Dropbox](https://www.dropbox.com/), Nitrous.IO sits in your menubar and provides helpful shortcuts and management utilities.
 
 Today we're going to show you some of the benefits of using [Nitrous.IO for Mac](https://www.nitrous.io) as we build a simple blog application using [Python](http://www.python.org/) and [Flask](http://flask.pocoo.org/). We'll customize our blog using SublimeText and will preview our python application running in the cloud on Nitrous.IO.  Let's get started!
 
@@ -29,7 +33,7 @@ So let's go ahead and click "Open Shell". And with one simple click we're SSH'ed
 
 ![Mac Console](/images/mac-console.png)
 
-Now that the IDE is open and we're SSH'ed in our box, let's change directories into our "workspace" folder. Everything in this folder will sync to our Mac's filesystem so we can edit the files locally using SublimeText.
+Now that the IDE is open and we're SSH'ed in our box, let's change directories into our `workspace` folder. Everything in this folder will sync to our Mac's filesystem so we can edit the files locally using SublimeText.
 
     $cd workspace
 
@@ -70,11 +74,11 @@ Just pick some sensible defaults here. Maybe you want to add a title, tagline, o
 
 One of the magic things the Nitrous.IO Mac application sets up for you is port forwarding to your Nitrous.IO box running in the cloud.  Now that we've got our simple python application running on port 5000, we can setup port forwarding so we can view it easily in our browser.
 
-In the Nitrous.IO menu, click "Preferences", then select the "Port Forwarding" Window. Since our python app is running on port 5000 on Nitrous.IO, we'll just setup a simple mapping to port 5000 on localhost.  Make sure you've picked the right box in the menu on the left.
+In the Nitrous.IO menu, click `Preferences`, then select the `Port Forwarding` Window. Since our python app is running on port 5000 on Nitrous.IO, we'll just setup a simple mapping to port 5000 on localhost.  Make sure you've picked the right box in the menu on the left.
 
 ![Mac Port Forwarding](/images/mac-port-forwarding.png)
 
-If we've done that correctly, we can open up a chrome window, and type in "localhost:5000" and we should the index page of our blog application:
+If we've done that correctly, we can open up a chrome window, and type in `localhost:5000` and we should the index page of our blog application:
 
 ![Mac blog homepage](/images/mac-index.png)
 
@@ -94,13 +98,13 @@ Let's play around with some simple CSS just to show how easy it is. We'll open t
 
 ![Mac Sublime Text](/images/mac-st2.png)
 
-Then we'll save that chance, and we'll go back to our browser with the tab to "localhost:5000" and refresh:
+Then we'll save that chance, and we'll go back to our browser with the tab to `localhost:5000` and refresh:
 
 ![Mac blue homepage](/images/mac-blue-index.png)
 
 … And as you can see, the background color changes.
 
-What's happening here, is that [Nitrous.IO for Mac](https://www.nitrous.io/mac) is taking the changes we made to our css file in SublimeText, and it is instantaneously updating the files on our python box in the cloud. Then, our port forwarding is allowing us to preview the http server running our python app in the cloud by simply typing "localhost:5000" into our browser.
+What's happening here, is that [Nitrous.IO for Mac](https://www.nitrous.io/mac) is taking the changes we made to our css file in SublimeText, and it is instantaneously updating the files on our python box in the cloud. Then, our port forwarding is allowing us to preview the http server running our python app in the cloud by simply typing `localhost:5000` into our browser.
 
 It's important to remember there's no python environment running on my mac. All of our python files and all packages are running in the cloud on Nitrous.IO, so there wasn't any development environment setup on my part. This is really amazing stuff, you can setup a box easily in the cloud on Nitrous.IO and then edit just the code on your Mac using SublimeText or your favorite editor.
 

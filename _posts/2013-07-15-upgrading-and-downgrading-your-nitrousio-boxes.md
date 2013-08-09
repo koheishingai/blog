@@ -11,7 +11,7 @@ At any point you can change the memory/storage configuration of your boxes. Afte
 
 ### Upgrading a Box
 
-Look for the 'Settings' button (after clicking on your box name) in your [box dashboard](https://www.nitrous.io/app).
+Look for the `Settings` button (after clicking on your box name) in your [box dashboard](https://www.nitrous.io/app).
 
 ![Settings Button](/images/box-settings-button.png)
 
@@ -19,7 +19,7 @@ Clicking on that link will take you to your Box Settings page, where you can mov
 
 ![Settings Screen](/images/box-settings-screen.png)
 
-This screen will also give you your current memory and storage usage as well. Hit *Save Changes* to apply your changes to the box. Your box will undergo a reboot, so please remember to save your work
+This screen will also give you your current memory and storage usage as well. Hit `Save Changes` to apply your changes to the box. Your box will undergo a reboot, so please remember to save your work
 before you upgrade your box.
 
 ### Downgrading a Box
