@@ -11,7 +11,7 @@ My name is Ryan Smith, my online alias is [@ryandotsmith](https://twitter.com/ry
 
 ### What hardware do you use?
 
-I use a Macbook Pro. OSX is nice, but I run 0 production systems on OSX, thus I spend a lot of time working on Linux and UNIX variants running on cloud computers. I also spend a lot of time tinkering and researching the Plan9 OS.
+I use a Macbook Pro. OSX is nice, but I run 0 production systems on OSX, thus I spend a lot of time working with Linux & UNIX which run on cloud computers. I also spend a lot of time tinkering and researching the Plan9 OS.
 
 ### What do you code on Nitrous.IO?
 
