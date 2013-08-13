@@ -7,7 +7,7 @@ title: Nitrous.IO Stories - Ryan Smith of Wilson & Smith
 
 ### Who are you and what do you do?
 
-My name is Ryan Smith, my online alias is [@ryandotsmith](https://twitter.com/ryandotsmith). My background is in Mathematics but I have been working with computers since an early age. For the last few years I have been building infrastructure at [Heroku](http://heroku.com). I have worked on queueing infrastructure, billing, DNS, log delivery, system metrics, and helping customers with performance problems. I had the opportunity to work on the entire stack. A few weeks ago I left Heroku to start a productionization consultation company with my good friend Bobby Wilson. Our company name is [Wilson & Smith](http://wilsonandsmith.com) and we specialize in helping growing business scale their team and software operations.
+My name is Ryan Smith, my online alias is [@ryandotsmith](https://twitter.com/ryandotsmith). My background is in Mathematics but I have been working with computers since an early age. For the last few years I have been building infrastructure at [Heroku](http://heroku.com). I have worked on queueing infrastructure, billing, DNS, log delivery, system metrics, and helping customers with performance problems. A few weeks ago I left Heroku to start a productionization consultation company with my good friend Bobby Wilson. Our company name is [Wilson & Smith](http://wilsonandsmith.com) and we specialize in helping growing business scale their team and software operations.
 
 ### What hardware do you use?
 
