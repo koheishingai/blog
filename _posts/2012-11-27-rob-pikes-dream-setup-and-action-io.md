@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rob Pike's Dream Setup and Nitrous.IO
+author: arun
 ---
 
 Rob Pike had an awesome description of his [dream

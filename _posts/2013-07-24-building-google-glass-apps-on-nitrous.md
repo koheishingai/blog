@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building Google Glass Apps on Nitrous.IO
+author: lakshan
 ---
 
 <img src="/images/google-glass-collective.jpg"/>

@@ -7,3 +7,23 @@ exclude:
   - Rakefile
   - script/*
   - Gemfile*
+authors:
+  greg:
+    name: Greg McKeever
+    display_name: Greg
+    twitter: gmckeever
+    github: gmckeever
+  aj:
+    name: AJ Solimine
+    display_name: AJ
+    twitter: ajhit406
+    github: ajhit406
+  arun:
+    name: Arun Thampi
+    display_name: Arun
+  lakshan:
+    name: Lakshan Perera
+    display_name: Lakshan
+  pete:
+    name: Pete Kim
+    display_name: Pete

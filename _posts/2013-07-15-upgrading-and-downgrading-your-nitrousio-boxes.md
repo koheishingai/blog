@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Upgrading/Downgrading your Nitrous.IO boxes
+author: arun
 ---
 
 The ability to upgrade the memory/storage configurations of your boxes has been one of the most requested features ever since we launched. Well we're proud to reveal that feature today &ndash; you can now upgrade the memory/storage on your boxes.

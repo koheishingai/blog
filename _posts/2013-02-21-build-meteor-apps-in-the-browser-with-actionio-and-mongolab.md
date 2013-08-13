@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Build Meteor apps in the browser with Nitrous.IO and MongoLab
+author: aj
 ---
 
 [Meteor](http://meteor.com) is the new kid on the block that lets you quickly build web applications and host them effortlessly on meteor's servers. Meteor comes bundled with MongoDB which it uses at it's de-facto datastore. While the Meteor guys have done a great job with the installation process, developers might still be wary of polluting their local dev environments with another platform. This is where Nitrous.IO can help.

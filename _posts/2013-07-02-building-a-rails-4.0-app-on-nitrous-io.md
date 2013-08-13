@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building a Rails 4.0 App on Nitrous.IO
+author: greg
 ---
 
 Rails 4.0 incorporates many new features on top of an already very powerful framework. Today we'll take a look at __Strong Parameters__ and __Turbolinks__. This post closely follows the [rubyonrails.org guide](http://edgeguides.rubyonrails.org/getting_started.html), so take a look at their guide if you need an in-depth explanation. Today's post focuses on building an application on [Nitrous.IO](http://nitrous.io) using some of the new Rails 4.0 features.

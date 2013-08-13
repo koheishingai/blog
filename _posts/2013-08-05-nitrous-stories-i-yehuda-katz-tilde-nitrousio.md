@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nitrous.IO Stories - Yehuda Katz and Tilde.IO
+author: arun
 ---
 
 <img src="/images/katz.jpg" alt="yehuda katz and carl lerche" />

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Postgres + Nitrous.IO = &lt;3
+author: aj
 ---
 
 PostgreSQL is one of the most popular databases for developers these days. Postgres is known for its stability, extensibility, and phenomenal spatial computation, amongst other things. Many of you probably switched to Postgres when you deployed your first app to [Heroku](http://heroku.com).

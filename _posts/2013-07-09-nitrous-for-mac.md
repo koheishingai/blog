@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Edit Code on your Mac, Run it in the Cloud"
+author: aj
 ---
 
 ![Mac dropdown](/images/mac-tour-menu@2x.png)

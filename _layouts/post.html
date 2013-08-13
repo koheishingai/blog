@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-
+{% assign author = site.authors[page.author] %}
 <div class="post">
   {% if post.draft %}
     <p class="alert"> You've stumbled upon a draft. Sorry if it's illegible!</p>
   {% else %}
     <h1 class="post-title"> {{ page.title }}</h1>
       <p class="text-muted">
-        <time pubdate datetime="{{ page.date | date: "%d %B %Y" }}">{{ page.date | date: "%d %B %Y" }}</time>
+        <time pubdate datetime="{{ page.date | date: "%d %B %Y" }}">
+          {{ page.date | date: "%d %B %Y" }} 
+            {% if author.display_name %}
+              by {{ author.display_name }}
+            {% endif %}</time>
       </p>              
     {{ content }}
   {% endif %}

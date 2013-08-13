@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Nitrous.IO Web IDE
+author: arun
 ---
 
 We've spent much of the last few months working behind the scenes on the Nitrous.IO platform, to ensure we can provide the best performing and most stable cloud development environment. We're confident with our progress to date, and will be sending out invites to the extremely large group of requests we've received over the past few months. Over the next few weeks, we'll be writing some blog posts about the different ways you can connect to your Nitrous.IO development boxes.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nitrous.IO At Meteor Devshop 3
+author: arun
 ---
 
 We did a lightning talk at Meteor's Devshop a couple of weeks ago at their San
