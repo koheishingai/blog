@@ -71,14 +71,14 @@ text-transform: lowercase;
 }
 
 .navbar-nav > li.signup > a.btn.btn-success:hover {
-  background-color: #52EEA3;
-  border-color: #52EEA3;
+  background-color: #48c9b0;
+  border-color: #48c9b0;
   color: #fff;
 }
 
 .btn-success{
-  background-color: #1CDD80;
-  border-color: #1CDD80;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .navbar-toggle {
