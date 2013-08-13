@@ -1900,13 +1900,18 @@ fieldset[disabled] .btn-danger.active {
   border-color: #4cae4c;
 }
 
-.btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
 .btn-success.active {
   color: #ffffff;
-  background-color: #47a447;
-  border-color: #398439;
+  background-color: #1CDD80;
+  border-color: #1CDD80;
+}
+
+.btn-success:hover{
+  background-color: #52EEA3;
+  border-color: #52EEA3;
+  color: #fff;
 }
 
 .btn-success.disabled,
