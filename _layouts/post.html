@@ -17,12 +17,11 @@ layout: default
 {% include sharing.html %}
 
 <div class="pnav clearfix">
-  {% if page.previous.url %}
-    <a href="{{page.previous.url}}" title="Older" class="pnav older pull-right">Older Posts &raquo;</a>
-  {% endif %}
-
   {% if page.next.url %}
-    <a href="{{page.next.url}}" title="Newer" class="pnav newer pull-left">&laquo; Newer Posts</a>
+    <a href="{{page.next.url}}" title="Newer" class="pnav newer pull-right">Newer Post <i class="icon-angle-right"></i></a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{page.previous.url}}" title="Older" class="pnav older pull-left"><i class="icon-angle-left"></i> Older Post</a>
   {% endif %}
 </div>
 

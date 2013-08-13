@@ -36,15 +36,21 @@ title: Nitrous.IO Blog
 <div id="pagination">
   <section id="older">
     {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="previous">< Older Posts</a>
+    <div class="pnav older pull-left">
+      <a href="/page{{ paginator.next_page }}"><i class="icon-angle-left"></i> Older Posts</a>
+    </div>
     {% endif %}
   </section>
   <section id="newer">
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-      <a href="/">Newer Posts ></a>
+      <div class="pnav newer pull-right">
+        <a href="/">Newer Posts <i class="icon-angle-right"></i></a>
+      </div>
       {% else %}
-      <a href="/page{{ paginator.previous_page }}" class="next">Newer Posts ></a>
+      <div class="pnav newer pull-right">
+        <a href="/page{{ paginator.previous_page }}">Newer Posts <i class="icon-angle-right"></i></a>
+      </div>
       {% endif %}
     {% endif %}
   </section>
