@@ -3,7 +3,7 @@ layout: post
 title: Nitrous.IO Stories - Ryan Smith of Wilson & Smith
 ---
 
-<img src="https://secure-b.vimeocdn.com/ts/440/494/440494145_1280.jpg" alt="ryan smith" />
+<img src="http://f.cl.ly/items/3g20242x1m2D0B352z42/portrait.jpg" alt="ryan smith" />
 
 ### Who are you and what do you do?
 
