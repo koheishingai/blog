@@ -29,7 +29,7 @@ I primarily use my computer for work. I am practically a luddite if I am not wor
 
 I do all of my work in [Trello](http://trello.com), [GitHub](http://github.com), Gmail, and my terminal. I really like these interfaces. The last tool in my list (terminal) is the only non-cloud service. It requires that I have files on a piece of metal underneath my keyboard. This is troublesome for a variety of reasons:
 
-* It is not automatically reproducible. Computers fail, if there isn't a program to bring my terminal up to date, it is broken.
+* It is not automatically reproducible. Computers fail, if there isn't a program to bring my terminal up to date, my process is broken.
 * It is not easily sharable. I would like to share the files (remember, everything is a file. binaries, databases, etc...) with other computers. This means with my production servers and my friends and colleagues.
 * Dev/prod parity. Developing on OSX and deploying on Linux is not ideal. The kernels are quite different and the system calls which expose the kernel are certainly different. This is insane.
 
