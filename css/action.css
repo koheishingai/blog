@@ -64,9 +64,14 @@ img {
 }
 
 .navbar-nav > li.signup > a.btn.btn-success:hover {
-  background-color: #67c467;
-  border-color: #67c467;
+  background-color: #52EEA3;
+  border-color: #52EEA3;
   color: #fff;
+}
+
+.btn-success{
+  background-color: #1CDD80;
+  border-color: #1CDD80;
 }
 
 .navbar-toggle {
@@ -86,6 +91,23 @@ img {
 
 .nav-collapse.navbar-responsive-collapse.in .navbar-nav > li.signup > a.btn.btn-success {
   margin-bottom: 8px;
+}
+
+.navbar-nav > .nav-break {
+color: #9CB6EB;
+padding: 15px 10px 15px 0;
+line-height: 20px;
+border-radius: 4px;
+}
+
+.login{
+  background-image: -webkit-linear-gradient(top, #2692d7,#CAD8EB 50%,#CAD8EB 50%,#2692d7);
+  background-image: linear-gradient(to bottom, #2692d7,#CAD8EB 50%,#CAD8EB 50%,#2692d7);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 1px 100%;
+  margin-left: 18px;
+  padding-left: 15px;
 }
 
 footer div {
