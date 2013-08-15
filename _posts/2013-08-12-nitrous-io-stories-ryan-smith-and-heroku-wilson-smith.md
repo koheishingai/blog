@@ -21,7 +21,7 @@ I write a lot of software on Nitrous.IO boxes. For instance, one of my recent op
 
 ### What aspects of Nitrous.IO do you love the most?
 
-I love the vision. It has been prophesied by the forefathers of UNIX that a day would come in which our computers would simply be a peice of glass connected to some computer on the network. Nitrous.io is making that dream a reality. \[[1](http://www.youtube.com/watch?v=dsMKJKTOte0&feature=youtu.be&t=58m12s)\] \[[2](http://rob.pike.usesthis.com/)\]
+I love the vision. It has been prophesied by the forefathers of UNIX that a day would come in which our computers would simply be a piece of glass connected to some computer on the network. Nitrous.io is making that dream a reality. \[[1](http://www.youtube.com/watch?v=dsMKJKTOte0&feature=youtu.be&t=58m12s)\] \[[2](http://rob.pike.usesthis.com/)\]
 
 Practically speaking, the feature that captivates my attention is that I have easy SSH access to a Linux machine that someone else is maintaining. Among all of my responsibilities, personal system administration is something that I am keen on delegating. If I never have to worry about keeping a machine online and its state secured, then I will be winning.
 
