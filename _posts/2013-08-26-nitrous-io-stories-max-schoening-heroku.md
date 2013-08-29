@@ -26,9 +26,9 @@ on an iMac and iPad.
 Vim and Tmux allow me to seamlessly switch hardware without losing context and 
 I keep sessions open for both work and play. On the iPad I connect to Nitrous.io with [Prompt](http://www.panic.com/blog/2011/04/introducing-prompt-ssh-for-ios/) -- 
 the extended iPad battery life is great for longer trips. 
-
-### What do you code on Nitrous.IO? 
 <!--break-->  
+### What do you code on Nitrous.IO? 
+
 Every Heroku codebase that I work on runs on Nitrous.io -- at this point I 
 don't need a local execution environment. Most of Heroku's web interfaces are 
 Rails apps backed by Postgres databases and with Nitrous.io it's trivial to set 
