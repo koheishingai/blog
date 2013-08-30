@@ -10,20 +10,18 @@ When building the [help site](http://help.nitrous.io), we ran into a road block.
 
 Running Jekyll in safe mode means that no plugins are supported, and the only workaround would involve mutliple steps of maintaining both a `master` branch and a `gh-pages` branch in your Github repo. This sounds like a pain to do, but we decided to streamline this process to be as painless as possible.
 
-### Creating a new Jekyll Site on Nitrous.IO
-
-Pre-requisites:
+### Prerequisites
 
 * A [Nitrous.IO account](https://www.nitrous.io/)
 * A [Ruby/Rails box](http://help.nitrous.io/box-new/)
 * A [Github Account](https://github.com/)
-<!--break-->
-Installing Jekyll:
 
-To install Jekyll on Github pages, you will want to create a new [Repo](https://github.com/new) with the title `blog`.
+### Creating a new Jekyll Site on Nitrous.IO
+
+To install Jekyll on Github pages, you will want to create a new [Github Repo](https://github.com/new) with the title `blog`.
 
 You will need to log into your Ruby/Rails box, run the following commands within `~/workspace/`:
-
+<!--break-->
     mkdir blog
     cd blog
     touch README.md
