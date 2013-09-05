@@ -2,6 +2,7 @@
 layout: post
 title: Nitrous.IO Stories - Max Schoening and Heroku
 author: greg
+oldurl: /2013/08/05/nitrous-io-stories-max-schoening-heroku.html
 ---
 
 <img src="/images/max-schoening.jpg" alt="Max Schoening" style="margin: 0 5%;"/>

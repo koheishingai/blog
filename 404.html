@@ -1,0 +1,27 @@
+---
+layout: default
+title: 404
+---
+
+<p>Sorry this page does not exist &ndash; redirecting</p>
+
+<script type="text/javascript">
+  window.onload = function() {
+    var forwardLinks = [];
+    {% for post in site.posts %}
+      {% if post.oldurl %}
+       forwardLinks.push({ "old":"{{post.oldurl}}", "new":"{{post.url}}" });
+      {% endif %}
+    {% endfor %}
+
+    var currentPath = window.location.pathname;
+    for(var key in forwardLinks){
+      var link = forwardLinks[key];
+      if(link.old == currentPath) {
+        //set the redirect
+        setTimeout("window.location.replace('"+link.new+"')", 100);
+        return;
+      }
+    }
+  }
+</script>
