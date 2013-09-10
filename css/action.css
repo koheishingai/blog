@@ -60,6 +60,10 @@ text-transform: lowercase;
   margin-left: 8px;
 }
 
+.btn{
+  font-weight: normal;
+}
+
 .navbar-nav > li.signup > a.btn.btn-success {
   padding: 3px 10px;
   color: #fff;
@@ -137,7 +141,6 @@ h1.post-title a:hover {
 a.btn.read-more {
   display: block;
   margin: 12px 0;
-  padding: 4px 12px;
   background-color: #fcfcfc;
 }
 
