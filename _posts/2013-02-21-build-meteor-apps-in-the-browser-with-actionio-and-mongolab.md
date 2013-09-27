@@ -6,7 +6,10 @@ author: aj
 
 [Meteor](http://meteor.com) is the new kid on the block that lets you quickly build web applications and host them effortlessly on meteor's servers. Meteor comes bundled with MongoDB which it uses at it's de-facto datastore. While the Meteor guys have done a great job with the installation process, developers might still be wary of polluting their local dev environments with another platform. This is where Nitrous.IO can help.
 
-###  Look Ma, No Root
+> **Update:** Autoparts has been released and will allow you to install Meteor in one command. Run `parts install meteor` to install Meteor. Read more about Autoparts in the [help guide](http://help.nitrous.io/autoparts/).
+
+<s>
+### Look Ma, No Root
 
 Unfortunately, the default Meteor installation process on Linux requires root access (not available on our [free plan](https://www.nitrous.io/pricing)), as well as the installation of a MongoDB server on your machine.<!--break-->
 
@@ -75,6 +78,7 @@ Running `meteor` for the first time after you install it will cause it
 to install a bunch of dependencies.
 
 Now try running `meteor --help`. If you did the above steps correctly you should see available meteor commands.
+</s>
 
 ### Create a Sample App
 
