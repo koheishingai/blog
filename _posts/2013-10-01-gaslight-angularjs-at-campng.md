@@ -4,9 +4,9 @@ title: Using Nitrous.IO at Gaslight's CampNG
 author: chris_gaslight	
 ---
 
-![Chris Nelson with Gaslight Software](/images/chris_nelson.jpg)
+![Chris Nelson with Gaslight](/images/chris_nelson.jpg)
 
-*This is a guest post by [Chris Nelson](https://twitter.com/superchris), whom is a not so secret developer and founding partner at [Gaslight Software](http://gaslight.co/) in Cincinnati, OH*
+*This is a guest post by [Chris Nelson](https://twitter.com/superchris), whom is a not so secret developer and founding partner at [Gaslight](http://gaslight.co/) in Cincinnati, OH*
 
 Last Friday we had our first [CampNG](http://gaslight.co/training) here at our training center just across the parking lot from the Gaslight office. We couldn't have asked for a better turnout: we sold out more than a week ahead of the class, and that was with not a lot of promotion effort on our part. This speaks to just how much momentum Angular has going for it. Hopefully by the end of the class everyone had a good idea why this momentum exists!
 
