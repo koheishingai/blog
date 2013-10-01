@@ -16,7 +16,7 @@ Fortunately, the next part of the class we used a tool that I've come to really 
 <!--break-->
 Before [CampNG](http://gaslight.co/training), we taught several classes in Backbone.js. These were 2-3 day classes building an app, and we used rails as our backend. The first instance of the class we lucked out and everyone had macs and had things installed and ready to go. Subsequent classes were not so lucky and we lost quite a lot of time scratching our heads figuring out why some particular bit wouldn't run on a given students machines. Being in a full classroom helping one student with a configuration issue while the rest of the class waits is not a pleasant experience, to say the least! With later classes, we used virtualbox and vagrant to try to get a common environment for everyone, but even here we had random terrible performance issues to deal with.
 <p>
-	<img src="/images/camp-ng.jpg" alt="CampNG" width="712" style="width:712px;float:left;margin:10px 0 20px 0;"/>
+	<img src="/images/camp-ng.jpg" alt="CampNG" width="712" style="width:712px; float:left; margin:10px 0 20px 0;"/>
 </p>
 Enter Nitrous.IO. To be honest, I'm not sure how I first heard about it, but I believe the first time we used it in anger was for a class we did on Saturday mornings here in our office, the Cincy Web Tech Study Group. We took students through an online course in web development with Ruby on Rails from Stanford. Many of the students had no programming experience at all, and we offered Nitrous.IO as an option for students that didn't want to mess around with installing Ruby initially. It worked out really well, and several of the students continued using Nitrous.IO for the rest of the course.
 
