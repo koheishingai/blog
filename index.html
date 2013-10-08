@@ -12,7 +12,7 @@ title: Nitrous.IO Blog
       <p class="small text-muted">
         <time pubdate datetime="{{ post.date | date: "%d %B %Y" }}">{{ post.date | date: "%d %B %Y" }}
           {% if author.display_name %}
-            by {{ author.display_name }}
+            by <a href="https://www.twitter.com/{{author.twitter}}">{{ author.display_name }}</a>
           {% endif %}</time>
       </p>
       {{ post.content | split:'<!--break-->' | first }}

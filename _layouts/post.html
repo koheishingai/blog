@@ -11,7 +11,7 @@ layout: default
         <time pubdate datetime="{{ page.date | date: "%d %B %Y" }}">
           {{ page.date | date: "%d %B %Y" }} 
             {% if author.display_name %}
-              by {{ author.display_name }}
+              by <a href="https://www.twitter.com/{{author.twitter}}">{{ author.display_name }}</a>
             {% endif %}</time>
       </p>              
     {{ content }}
